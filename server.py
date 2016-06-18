@@ -171,13 +171,13 @@ def another():
 @app.route('/searchmovie', methods=['POST'])
 def add():
   movie_name = request.form['moviename']
-  movie = g.conn.execute("SELECT * FROM movie M WHERE M.mname = %s", movie_name)
-  # movie_list = []
-  # item = movie.fetchone()
-  # while not item == None:
-  #     movie_list.append(item)
-  #     item = movie.fetchone()
-  context = dict(data = movie)
+  movie = g.conn.execute("SELECT * FROM movie M WHERE M.mname=%s", movie_name)
+  movie_list = []
+  item = movie.fetchone()
+  while not item == None:
+      movie_list.append(item)
+      item = movie.fetchone()
+  context = dict(data = movie_list)
   return render_template("movieresult.html", **context)
   movie.close()
 
