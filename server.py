@@ -109,16 +109,11 @@ def index():
   # DEBUG: this is debugging code to see what request looks like
   print request.args
 
-
-
-
-
-
-  cursor = g.conn.execute("SELECT name FROM test")
-  names = []
-  for result in cursor:
-    names.append(result['name'])  # can also be accessed using result[0]
-  cursor.close()
+  # cursor = g.conn.execute("SELECT name FROM test")
+  # names = []
+  # for result in cursor:
+  #   names.append(result['name'])  # can also be accessed using result[0]
+  # cursor.close()
 
   #
   # Flask uses Jinja templates, which is an extension to HTML where you can
@@ -146,14 +141,14 @@ def index():
   #     <div>{{n}}</div>
   #     {% endfor %}
   #
-  context = dict(data = names)
+  # context = dict(data = names)
 
 
   #
   # render_template looks in the templates/ folder for files.
   # for example, the below file reads template/index.html
   #
-  return render_template("index.html", **context)
+  return render_template("index.html")
 
 #
 # This is an example of a different path.  You can see it at:
@@ -183,10 +178,11 @@ def add():
   #     movie_list.append(item)
   #     item = movie.fetchone()
 
-  if item = None:
+  if item == None:
       return render_template("notfound.html")
   else:
       return render_template("movieresult.html", movie)
+  movie.close()
 
 
 
