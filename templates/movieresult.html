@@ -1,11 +1,12 @@
 <html>
 <body>
   <h1>Movie Search Result:</h1>
+  <p>{{data}}/p>
   {%for t in data%}
   <div>
   <h2>{{t.mname}} <small>{{t.year}}</small></h2>
   <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
-  <form method="POST" action="/rate" onclick="return alert('Successful rate a movie!')">
+  <form method="POST" action="/rate">
     <p>Your User ID: <input type="text" name="userid">
     <p>Your rating to the film:
       <select name="score">
@@ -22,8 +23,8 @@
         <option value=0.0>0.0</option>
       </select>
     </p>
-    <input type="hidden" value={{t.mid}} name="movie">
-    <input type="submit" value="rate the movie">
+    <input type="hidden" value="{{t.mid}}" name="movie">
+    <input type="submit" value="rate the movie"  onclick="return alert('Thanks for rating a movie!')">
   </form>
   <br></br>
   </div>

@@ -200,9 +200,16 @@ def search():
 # submit a rate from user
 @app.route('/rate',  methods=['POST'])
 def rate():
-    input = request.form['movie','userid','score']
-    g.conn.excute("INSERT INTO rate VALUES(%s,%s.%s)",input[0],input[1],input[2])
-
+    movieid = int(request.form['movie'])
+    userid = int(request.form['userid'])
+    score = float(request.form['score'])
+    res = g.conn.execute("SELECT * FROM rate R WHERE R.mid = %s AND R.uid = %s", movieid, userid)
+    if res.fetchone() == None:
+        g.conn.execute("INSERT INTO rate VALUES(%s,%s,%s)",movieid, userid, score)
+    else:
+        g.conn.execute("UPDATE rate SET score = %s WHERE mid = %s AND uid = %s", score, movieid, userid)
+    res.close()
+    return 'You have successfully rate the movie'
 
 
 @app.route('/login')
