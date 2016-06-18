@@ -177,11 +177,12 @@ def add():
   # while not item == None:
   #     movie_list.append(item)
   #     item = movie.fetchone()
+  context = dict(data = movie)
 
   if movie.fetchone() == None:
       return render_template("notfound.html")
   else:
-      return render_template("movieresult.html", movie = movie)
+      return render_template("movieresult.html", **context)
   movie.close()
 
 
