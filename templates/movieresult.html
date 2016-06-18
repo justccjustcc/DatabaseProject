@@ -1,8 +1,9 @@
 <html>
 <body>
-  {%for t in movie_list%}
-  <h1>{{t.mname}} <small>{{t.year}}</small></h1>
-  <h2>Rotten Tomato Audience Rating: {{t.rating}}</h2>
+  <h1>Search Result:</h1>
+  {%for t in data%}
+  <h2>{{t.mname}} <small>{{t.year}}</small></h2>
+  <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
   {%endfor%}
   <p>No more result.</p>
 
