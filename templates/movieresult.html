@@ -2,7 +2,7 @@
 <body>
   <h1>Movie Search Result:</h1>
   {%for t in data%}
-  <h2>{{t.mname}} <small>{{t.year}}</small></h2>
+  <h2>{{t.mname}} <small>({{t.year}})</small></h2>
   <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
   {%endfor%}
   <p>No more result.</p>
