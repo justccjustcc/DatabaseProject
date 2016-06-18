@@ -170,8 +170,8 @@ def another():
 # Example of adding new data to the database
 @app.route('/searchmovie', methods=['POST'])
 def add():
-  name = request.form['moviename']
-  movie = g.conn.execute("SELECT * FROM movie WHERE mname = name")
+  movie_name = request.form['moviename']
+  movie = g.conn.execute("SELECT * FROM movie M WHERE M.mname = movie_name")
   # movie_list = []
   # item = movie.fetchone()
   # while not item == None:
