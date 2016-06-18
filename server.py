@@ -197,8 +197,11 @@ def search():
     return render_template("directorresult.html",**context)
     director.close()
 
-
-
+# submit a rate from user
+@app.route('/rate',  methods=['POST'])
+def rate():
+    input = request.form['movie','userid','score']
+    g.conn.excute("INSERT INTO rate VALUES(%s,%s.%s)",input[0],input[1],input[2])
 
 
 

@@ -2,9 +2,33 @@
 <body>
   <h1>Movie Search Result:</h1>
   {%for t in data%}
-  <h2>{{t.mname}} <small>({{t.year}})</small></h2>
+  <div>
+  <h2>{{t.mname}} <small>{{t.year}}</small></h2>
   <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
+  <form method="POST" action="/rate" onclick="return alert('Successful rate a movie!')">
+    <p>Your User ID: <input type="text" name="userid">
+    <p>Your rating to the film:
+      <select name="score">
+        <option value=5.0>5.0</option>
+        <option value=4.5>4.5</option>
+        <option value=4.0>4.0</option>
+        <option value=3.5>3.5</option>
+        <option value=3.0>3.0</option>
+        <option value=2.5>2.5</option>
+        <option value=2.0>2.0</option>
+        <option value=1.5>1.5</option>
+        <option value=1.0>1.0</option>
+        <option value=0.5>0.5</option>
+        <option value=0.0>0.0</option>
+      </select>
+    </p>
+    <input type="hidden" value={{t.mid}} name="movie">
+    <input type="submit" value="rate the movie">
+  </form>
+  <br></br>
+  </div>
   {%endfor%}
+
   <p>No more result.</p>
 
   <p><a href="/">Back to home page.</a></p>
