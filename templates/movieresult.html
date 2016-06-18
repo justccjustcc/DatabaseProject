@@ -1,0 +1,10 @@
+<html>
+<body>
+  {%for t in movie%}
+  <h1>{{t.mname}} <small>{{t.year}}</small></h1>
+  <h2>Rotten Tomato Audience Rating: {{t.rating}}</h2>
+  {%endfor%}
+
+  <p><a href="/index.html">Back to home page.</a></p>
+</body>
+</html>

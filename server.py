@@ -34,7 +34,7 @@ app = Flask(__name__, template_folder=tmpl_dir)
 #
 #     DATABASEURI = "postgresql://gravano:foobar@w4111a.eastus.cloudapp.azure.com/proj1part2"
 #
-DATABASEURI = "postgresql://cc3701:Cc19930703@w4111vm.eastus.cloudapp.azure.com/w4111"
+DATABASEURI = "postgresql://cc3701:Cc19930703@w4111vm.eastus.cloudapp.azure.com/postgres"
 
 
 #
@@ -46,12 +46,12 @@ engine = create_engine(DATABASEURI)
 # Example of running queries in your database
 # Note that this will probably not work if you already have a table named 'test' in your database, containing meaningful data. This is only an example showing you how to run queries in your database using SQLAlchemy.
 #
-engine.execute("""CREATE TABLE IF NOT EXISTS test (
-  id serial,
-  name text
-);""")
-engine.execute("""INSERT INTO test(name) VALUES ('grace hopper'), ('alan turing'), ('ada lovelace');""")
 
+
+# engine.execute("""CREATE TABLE IF NOT EXISTS test (
+#   id serial,
+#   name text
+# );""")
 
 @app.before_request
 def before_request():
@@ -110,9 +110,10 @@ def index():
   print request.args
 
 
-  #
-  # example of a database query
-  #
+
+
+
+
   cursor = g.conn.execute("SELECT name FROM test")
   names = []
   for result in cursor:
@@ -162,17 +163,34 @@ def index():
 # Notice that the function name is another() rather than index()
 # The functions for each app.route need to have different names
 #
+
+
+
+
 @app.route('/another')
 def another():
   return render_template("another.html")
 
 
 # Example of adding new data to the database
-@app.route('/add', methods=['POST'])
+@app.route('/searchmovie', methods=['POST'])
 def add():
-  name = request.form['name']
-  g.conn.execute('INSERT INTO test VALUES (NULL, ?)', name)
-  return redirect('/')
+  name = request.form['moviename']
+  movie = g.conn.execute("SELECT * FROM movie WHERE mname = name")
+  # movie_list = []
+  # item = movie.fetchone()
+  # while not item == None:
+  #     movie_list.append(item)
+  #     item = movie.fetchone()
+
+  if item = None:
+      return render_template("notfound.html")
+  else:
+      return render_template("movieresult.html", movie)
+
+
+
+
 
 
 @app.route('/login')
