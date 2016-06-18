@@ -167,7 +167,7 @@ def another():
   return render_template("another.html")
 
 
-# Example of adding new data to the database
+# Search movie
 @app.route('/searchmovie', methods=['POST'])
 def add():
   movie_name = request.form['moviename']
@@ -180,6 +180,22 @@ def add():
   context = dict(data = movie_list)
   return render_template("movieresult.html", **context)
   movie.close()
+
+# Search director and actor
+@app.route('/searchDirector', methods=['POST'])
+def search():
+    input = request.form['Directorname']
+    director = g.conn.execute('''SELECT D1.did, D1.dname, M1.mname, D1.count
+    FROM (SELECT D.did, D.dname, COUNT(*) AS count FROM director D, movie M WHERE M.did = D.did
+    AND D.dname=%s GROUP BY D.did, D.dname) D1, movie M1 WHERE D1.did = M1.did''', input)
+    director_list = []
+    item = director_list.fetchone()
+    while not item == None:
+        director_list.append(item)
+        item = movie.fetchone()
+    context = dict(data = director_list)
+    return render_template("directorresult.html",**continue)
+    director.close()
 
 
 
