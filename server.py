@@ -194,7 +194,7 @@ def search():
         director_list.append(item)
         item = movie.fetchone()
     context = dict(data = director_list)
-    return render_template("directorresult.html",**continue)
+    return render_template("directorresult.html",**context)
     director.close()
 
 
