@@ -7,7 +7,7 @@
   <h3>Genre:
     {% for j in data2 %}
     {% if t.mid == j.mid %}
-    {{j.gname}} 
+    {{j.gname}}, 
     {% endif %}
     {% endfor %}
   </h3>
@@ -17,7 +17,7 @@
   <h3>Actors:
     {% for i in data1%}
     {% if i.mid == t.mid %}
-    {{i.aname}}
+    {{i.aname}},
     {% endif %}
     {% endfor %}
   </h3>
