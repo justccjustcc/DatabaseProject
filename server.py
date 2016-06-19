@@ -239,6 +239,7 @@ def rate():
     movieid = int(request.form['movie'])
     userid = int(request.form['userid'])
     score = float(request.form['score'])
+    # check whether this userid is valid
     person = g.conn.execute ("SELECT * FROM users U WHERE U.uid = %s",userid)
     if not person.fetchone() == None:
         res = g.conn.execute("SELECT * FROM rate R WHERE R.mid = %s AND R.uid = %s", movieid, userid)
@@ -339,7 +340,11 @@ def chooseCountry():
 def recommend():
     input = request.form['method']
     user_id = int(request.form['userid'])
-    print input
+    # check whether this userid is valid
+    person = g.conn.execute("SELECT * FROM users U WHERE U.uid = %s",user_id)
+    if person.fetchone() == None:
+        return 'This user does not exist!'
+
     if input == "age":
         user = g.conn.execute("SELECT age FROM users WHERE uid = %s", user_id)
         user_age = int(user.fetchone()['age'])
