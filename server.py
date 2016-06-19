@@ -345,19 +345,19 @@ def recommend():
         user_age = int(user.fetchone()['age'])
         print user_age
 
-        users = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, AVG(R.score) AS ave
+        movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, AVG(R.score) AS ave
         FROM users U, rate R, movie M
         WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5''',user_age)
 
-        user_list = []
-        item = users.fetchone()
+        movie_list = []
+        item = movie.fetchone()
         while not item == None:
-            user_list.append(item)
-            item = users.fetchone()
-        context = dict(data = users)
+            movie_list.append(item)
+            item = movie.fetchone()
+        context = dict(data = movie_list)
         user.close()
-        users.close()
+        movie.close()
         return render_template("recommendation.html", **context)
 
     elif input == "gender":
