@@ -174,7 +174,7 @@ def searchmovie():
   movie = g.conn.execute('''SELECT * FROM movie M, director D,
   (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
   WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid
-  ORDER BY M2.ave''', input)
+  ORDER BY M2.ave DESC''', input)
 
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
   WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid''', input)
@@ -208,7 +208,7 @@ def search():
 
     movie = g.conn.execute('''SELECT D1.did, M1.mname, M1.rating, M1.year
     FROM (SELECT D.did FROM director D WHERE D.dname = %s) D1, movie M1
-    WHERE D1.did = M1.did ORDER BY M1.year''', input)
+    WHERE D1.did = M1.did ORDER BY M1.year DESC''', input)
 
     director_list = []
     item = director.fetchone()
@@ -252,7 +252,7 @@ def searchActor():
     movie = g.conn.execute('''SELECT P1.aid, M.mname, M.rating, M.year
     FROM (SELECT P.aid, P.mid FROM actor A, played_by P
     WHERE A.aid = P.aid AND A.aname = %s) P1, movie M
-    WHERE P1.mid = M.mid ORDER BY M.year''',input)
+    WHERE P1.mid = M.mid ORDER BY M.year DESC''',input)
 
     actor_list = []
     item = actor.fetchone()
@@ -291,7 +291,7 @@ def chooseCountry():
     movie = g.conn.execute('''SELECT * FROM country C, movie M, director D,
     (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
     WHERE C.cid = M.cid AND M.did = D.did AND M2.mid = M.mid AND C.cname = %s
-    ORDER BY M2.ave''', input)
+    ORDER BY M2.ave DESC''', input)
 
     other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
     WHERE C.cid = M.cid AND M.mid = P.mid AND P.aid = A.aid AND C.cname = %s''', input)
