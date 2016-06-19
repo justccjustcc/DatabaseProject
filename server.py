@@ -252,8 +252,6 @@ def chooseCountry():
         item = movie.fetchone()
     movie.close()
     context = dict(data = movie_list)
-    print movie_list
-    print movie
     return render_template("movieresult.html", **context)
 
 if __name__ == "__main__":
