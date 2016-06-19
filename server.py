@@ -338,6 +338,7 @@ def chooseCountry():
 @app.route('/recommend', methods=['POST'])
 def recommend():
     input = request.form['userid']
+    print input
     if input == "age":
         user = g.conn.execute("SELECT age FROM users WHERE uid = %s", input)
         print user
