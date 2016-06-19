@@ -3,12 +3,11 @@
   <h1>Director Search Result:</h1>
 
   {% for t in data %}
-  <h2>Director: {{t.dname}}</h2>
-  <h2>Director ID: {{data[0].did}}</h2>
+  <h2>Director: {{t.dname}}	<small>ID: {{data[0].did}}</small></h2>
   <h3>Found {{t.count}} Movie directed by {{t.dname}}:<h3>
     <ul>
     {%for i in data1%}
-    {% if t.did = i.did%}
+    {% if t.did == i.did%}
       <li>
       <h3>{{i.mname}} <small>({{i.year}})</small></h3>
       <h3>Rotten Tomato Audience Rating: {{i.rating}}</h3>
@@ -17,7 +16,7 @@
     {% endif %}
     {%endfor%}
     </ul>
-
+    <br></br>
   {% endfor %}
 
 
