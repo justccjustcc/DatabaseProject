@@ -228,6 +228,28 @@ def searchActor():
     actor.close()
     return render_template("actorresult.html",**context)
 
+@app.route('/chooseArea', methods=['POST'])
+def chooseArea():
+    input = request.form['area']
+    country = g.conn.execute('''SELECT C.cname FROM area A, country C
+    WHERE A.rid = C.rid AND A.aname = %s''', input)
+    country_list = []
+    for result in country:
+        country_list.append(result['cname'])
+    country.close()
+    context = dict(data1 = country_list, data2 = input)
+    return render_template("country.html", **context)
+
+@app.route('/chooseCountry', methods=['POST'])
+def chooseCountry():
+    input request.form['country']
+    movie = g.conn.execute('''SELECT * FROM country WHERE cid = %s''', input)
+    movie_list = []
+    for t in movie_list:
+        movie_list.append(t)
+    movie.close()
+    context = dict(data = movie_list)
+    return render_template("movieresult.html", **context)
 
 if __name__ == "__main__":
   import click
