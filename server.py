@@ -343,7 +343,7 @@ def recommend():
     if input == "age":
         user = g.conn.execute("SELECT age FROM users WHERE uid = %s", user_id)
         print user
-        user_age = int(user[0])
+        user_age = int(user.fetchone()['age'])
         print user_age
         user.close()
         users = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, AVG(R.score) AS ave
