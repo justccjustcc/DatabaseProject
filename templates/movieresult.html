@@ -5,11 +5,12 @@
   <div>
   <h2>{{t.mname}} <small>({{t.year}})</small></h2>
   <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
+  <h3>Our Users Rating: {{t.ave}}</h3>
   <h3>Director: {{t.dname}}</h3>
   <h3>Actors:
     {% for i in data1%}
     {% if i.mid == t.mid %}
-    {{i.aname}}  
+    {{i.aname}}
     {% endif %}
     {% endfor %}
   </h3>

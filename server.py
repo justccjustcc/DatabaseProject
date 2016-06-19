@@ -169,10 +169,12 @@ def another():
 
 # Search movie
 @app.route('/searchmovie', methods=['POST'])
-def add():
+def searchmovie():
   input = request.form['moviename']
-  movie = g.conn.execute('''SELECT * FROM movie M, director D
-  WHERE M.mname=%s AND M.did = D.did''', input)
+  movie = g.conn.execute('''SELECT * FROM movie M, director D,
+  ("SELECT M1.mid, AVG(R.score) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid") M2
+  WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid''', input)
+
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
   WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid''', input)
 
@@ -258,8 +260,10 @@ def chooseArea():
 @app.route('/chooseCountry', methods=['POST'])
 def chooseCountry():
     input = request.form['country']
-    movie = g.conn.execute('''SELECT * FROM country C, movie M, director D
-    WHERE C.cid = M.cid AND M.did = D.did AND C.cname = %s''', input)
+    movie = g.conn.execute('''SELECT * FROM country C, movie M, director D,
+    ("SELECT M1.mid, AVG(R.score) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid") M2
+    WHERE C.cid = M.cid AND M.did = D.did AND M2.mid = M.mid AND C.cname = %s''', input)
+
     other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
     WHERE C.cid = M.cid AND M.mid = P.mid AND P.aid = A.aid AND C.cname = %s''', input)
 
