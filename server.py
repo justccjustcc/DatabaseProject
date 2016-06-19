@@ -161,23 +161,21 @@ def index():
 
 
 
-
-@app.route('/another')
-def another():
-  return render_template("another.html")
-
-
 # Search movie
 @app.route('/searchmovie', methods=['POST'])
 def searchmovie():
   input = request.form['moviename']
-  movie = g.conn.execute('''SELECT * FROM movie M, director D,
-  (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
+  movie = g.conn.execute('''SELECT * FROM movie M, director D
+  (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave
+  FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
   WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid
   ORDER BY M2.ave DESC''', input)
 
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
   WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid''', input)
+
+  genre = g.conn.execute('''SELECT * FROM movie M, belong_to B, genre G
+  WHERE M.mname = %s AND M.mid = B.mid AND B.gid = G.gid''', input)
 
   movie_list = []
   item = movie.fetchone()
@@ -191,9 +189,16 @@ def searchmovie():
       actor_list.append(item)
       item = other.fetchone()
 
-  context = dict(data = movie_list, data1 = actor_list)
+  genre_list = []
+  item = genre.fetchone()
+  while not item == None:
+      genre_list.append(item)
+      item = genre.fetchone()
+
+  context = dict(data = movie_list, data1 = actor_list, data2 = genre_list)
   movie.close()
   other.close()
+  genre.close()
   return render_template("movieresult.html", **context)
 
 
@@ -296,6 +301,9 @@ def chooseCountry():
     other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
     WHERE C.cid = M.cid AND M.mid = P.mid AND P.aid = A.aid AND C.cname = %s''', input)
 
+    genre = g.conn.execute('''SELECT * FROM country C, movie M, belong_to B, genre G
+    WHERE C.cid = M.cid AND M.mid = B.mid AND B.gid = G.gid AND C.cname = %s''', input)
+
     movie_list = []
     item = movie.fetchone()
     while not item == None:
@@ -308,9 +316,16 @@ def chooseCountry():
         actor_list.append(item)
         item = other.fetchone()
 
+    genre_list = []
+    item = genre.fetchone()
+    while not item == None:
+        genre_list.append(item)
+        item = genre.fetchone()
+
     movie.close()
     other.close()
-    context = dict(data = movie_list, data1 = actor_list)
+    genre.close()
+    context = dict(data = movie_list, data1 = actor_list, data2 = genre_list)
     return render_template("movieresult.html", **context)
 
 if __name__ == "__main__":
