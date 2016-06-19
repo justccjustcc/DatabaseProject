@@ -9,6 +9,7 @@
 
 <body>
   <h1>Movie site</h1>
+  <h2>Search Area</h2>
 
   <form method="POST" action="/searchmovie">
     <p>Movie Name: <input type="text", name="moviename"> <input type="submit" value="search"></p>
@@ -18,12 +19,34 @@
     <p>Director Name: <input type="text", name="Directorname"> <input type="submit" value="search"></p>
   </form>
 
-  <form method="GET" action="/searchActor">
+  <form method="POST" action="/searchActor">
     <p>Actor Name: <input type="text", name="Actorname"> <input type="submit" value="search"></p>
   </form>
 
-<p><a href="another">Go to the other page</a></p>
+  <form method="POST" action="/chooseArea">
+    <p> Area:
+      <input type="radio" name="area" value="America"> America
+      <input type="radio" name="area" value="Asia"> Asia
+      <input type="radio" name="area" value="Europe"> Europe
+      <input type="radio" name="area" value="Africa"> Africa
+      <input type="radio" name="area" value="Oceania"> Oceania
+      <input type="submit" value="choose">
+    </p>
+  </form>
 
+<h2>Recommendation area:</h2>
+<form method="POST", action="/recommend">
+  <p> Your user ID:<input type="text" name="userid"> </p>
+  <p> Recommend by:
+    <select name="method">
+      <option value="age">age</option>
+      <option value="gender">gender</option>
+      <option value="occupation">occupation</option>
+      <option value="genre">genre</option>
+    </select>
+  </p>
+  <input type="submit" value="recommend">
+</form>
 
 </body>
 

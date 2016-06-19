@@ -1,17 +1,23 @@
 <html>
 <h1>Actor Search Result:</h1>
-<h2>Actor: {{data[0].aname}}  <small>ID: {{data[0].aid}}</small><h2>
-<h3>Found {{data[0].count}} movies played by {{data[0].aname}}</h3>
 
+{% for t in data %}
+<h2>Actor: {{t.aname}}  <small>ID: {{t.aid}}</small><h2>
+<h3>Found {{t.count}} movies played by {{t.aname}}</h3>
 <ul>
-{%for t in data%}
+{% for i in data1 %}
+{% if t.aid == i.aid %}
 <li>
-<h3>{{t.mname}} <small>({{t.year}})</small></h3>
-<h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
+<h3>{{i.mname}} <small>({{i.year}})</small></h3>
+<h3>Rotten Tomato Audience Rating: {{i.rating}}</h3>
 <br></br>
 </li>
-{%endfor%}
-<p>No more result.</p>
+{% endif %}
+{% endfor %}
 </ul>
+<br></br>
+{% endfor %}
+
+<p>No more result.</p>
 <p><a href="/">Back to home page.</a></p>
 </html>

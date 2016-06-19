@@ -1,0 +1,11 @@
+<html>
+<h1>Countries in {{data2}}:</h1>
+<form method="POST" action="/chooseCountry">
+  <select name="country">
+    {% for t in data1 %}
+    <option value="{{t}}"> {{t}}
+    {% endfor %}
+    <input type="submit" value="choose country">
+  </select>
+</form>
+</html>

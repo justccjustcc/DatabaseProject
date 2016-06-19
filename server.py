@@ -161,41 +161,77 @@ def index():
 
 
 
-
-@app.route('/another')
-def another():
-  return render_template("another.html")
-
-
 # Search movie
 @app.route('/searchmovie', methods=['POST'])
-def add():
-  movie_name = request.form['moviename']
-  movie = g.conn.execute("SELECT * FROM movie M WHERE M.mname=%s", movie_name)
+def searchmovie():
+  input = request.form['moviename']
+  movie = g.conn.execute('''SELECT * FROM movie M, director D,
+  (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave
+  FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
+  WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid
+  ORDER BY M2.ave DESC''', input)
+
+  other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
+  WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid''', input)
+
+  genre = g.conn.execute('''SELECT * FROM movie M, belong_to B, genre G
+  WHERE M.mname = %s AND M.mid = B.mid AND B.gid = G.gid''', input)
+
   movie_list = []
   item = movie.fetchone()
   while not item == None:
       movie_list.append(item)
       item = movie.fetchone()
-  context = dict(data = movie_list)
-  return render_template("movieresult.html", **context)
+
+  actor_list = []
+  item = other.fetchone()
+  while not item == None:
+      actor_list.append(item)
+      item = other.fetchone()
+
+  genre_list = []
+  item = genre.fetchone()
+  while not item == None:
+      genre_list.append(item)
+      item = genre.fetchone()
+
+  context = dict(data = movie_list, data1 = actor_list, data2 = genre_list)
   movie.close()
+  other.close()
+  genre.close()
+  return render_template("movieresult.html", **context)
+
 
 # Search director
 @app.route('/searchDirector', methods=['POST'])
 def search():
     input = request.form['Directorname']
-    director = g.conn.execute('''SELECT D1.did, D1.dname, M1.mname, D1.count, M1.rating, M1.year
-    FROM (SELECT D.did, D.dname, COUNT(*) AS count FROM director D, movie M WHERE M.did = D.did
-    AND D.dname=%s GROUP BY D.did, D.dname) D1, movie M1 WHERE D1.did = M1.did''', input)
+    director = g.conn.execute('''SELECT D.did, D.dname, COUNT(*) AS count
+    FROM director D, movie M
+    WHERE M.did = D.did
+    AND D.dname=%s GROUP BY D.did, D.dname''', input)
+
+    movie = g.conn.execute('''SELECT D1.did, M1.mname, M1.rating, M1.year
+    FROM (SELECT D.did FROM director D WHERE D.dname = %s) D1, movie M1
+    WHERE D1.did = M1.did ORDER BY M1.year DESC''', input)
+
     director_list = []
     item = director.fetchone()
     while not item == None:
         director_list.append(item)
         item = director.fetchone()
-    context = dict(data = director_list)
-    return render_template("directorresult.html",**context)
+
+    movie_list = []
+    item = movie.fetchone()
+    while not item == None:
+        movie_list.append(item)
+        item = movie.fetchone()
+
+    context = dict(data = director_list, data1 = movie_list)
     director.close()
+    movie.close()
+    return render_template("directorresult.html",**context)
+
 
 # submit a rate from user
 @app.route('/rate',  methods=['POST'])
@@ -203,32 +239,133 @@ def rate():
     movieid = int(request.form['movie'])
     userid = int(request.form['userid'])
     score = float(request.form['score'])
-    res = g.conn.execute("SELECT * FROM rate R WHERE R.mid = %s AND R.uid = %s", movieid, userid)
-    if res.fetchone() == None:
-        g.conn.execute("INSERT INTO rate VALUES(%s,%s,%s)",movieid, userid, score)
+    person = g.conn.execute ("SELECT * FROM users U WHERE U.uid = %s",userid)
+    if not person.fetchone() == None:
+        res = g.conn.execute("SELECT * FROM rate R WHERE R.mid = %s AND R.uid = %s", movieid, userid)
+        if res.fetchone() == None:
+            g.conn.execute("INSERT INTO rate VALUES(%s,%s,%s)",movieid, userid, score)
+        else:
+            g.conn.execute("UPDATE rate SET score = %s WHERE mid = %s AND uid = %s", score, movieid, userid)
+        res.close()
+        person.close()
+        return 'You have successfully rate the movie'
     else:
-        g.conn.execute("UPDATE rate SET score = %s WHERE mid = %s AND uid = %s", score, movieid, userid)
-    res.close()
-    return 'You have successfully rate the movie'
+        return 'This user does not exist!'
 
 
-@app.route('/searchActor', methods=['GET'])
+
+@app.route('/searchActor', methods=['POST'])
 def searchActor():
-    input = request.form['Directorname']
-    actor = g.conn.execute('''SELECT A1.aname, M.name, M.year, M.ratings, A1.count
-    FROM (SELECT A.aid, A.aname, COUNT(*) AS count FROM actor A, played_by P
-    WHERE A.aid = P.aid AND A.aname = %s GROUP BY A.aid, A.aname) A1, played_by P1, movie M
-    WHERE A1.aid = P1.aid AND P1.mid = M.mid ''',input)
+    input = request.form['Actorname']
+    actor = g.conn.execute('''SELECT A.aid, A.aname, COUNT(*) AS count FROM actor A, played_by P
+    WHERE A.aid = P.aid AND A.aname = %s GROUP BY A.aid, A.aname''',input)
+
+    movie = g.conn.execute('''SELECT P1.aid, M.mname, M.rating, M.year
+    FROM (SELECT P.aid, P.mid FROM actor A, played_by P
+    WHERE A.aid = P.aid AND A.aname = %s) P1, movie M
+    WHERE P1.mid = M.mid ORDER BY M.year DESC''',input)
+
     actor_list = []
     item = actor.fetchone()
     while not item == None:
         actor_list.append(item)
         item = actor.fetchone()
-    context = dict(data = actor_list)
-    return render_template("actorresult",**context)
+
+    movie_list = []
+    item = movie.fetchone()
+    while not item == None:
+        movie_list.append(item)
+        item = movie.fetchone()
+
+    context = dict(data = actor_list, data1 = movie_list)
     actor.close()
+    movie.close()
+    return render_template("actorresult.html",**context)
 
 
+@app.route('/chooseArea', methods=['POST'])
+def chooseArea():
+    input = request.form['area']
+    country = g.conn.execute('''SELECT C.cname FROM area A, country C
+    WHERE A.rid = C.rid AND A.rname = %s''', input)
+    country_list = []
+    for result in country:
+        country_list.append(result['cname'])
+    country.close()
+    context = dict(data1 = country_list, data2 = input)
+    return render_template("country.html", **context)
+
+
+@app.route('/chooseCountry', methods=['POST'])
+def chooseCountry():
+    input = request.form['country']
+    movie = g.conn.execute('''SELECT * FROM country C, movie M, director D,
+    (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
+    WHERE C.cid = M.cid AND M.did = D.did AND M2.mid = M.mid AND C.cname = %s
+    ORDER BY M2.ave DESC''', input)
+
+    other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
+    WHERE C.cid = M.cid AND M.mid = P.mid AND P.aid = A.aid AND C.cname = %s''', input)
+
+    genre = g.conn.execute('''SELECT * FROM country C, movie M, belong_to B, genre G
+    WHERE C.cid = M.cid AND M.mid = B.mid AND B.gid = G.gid AND C.cname = %s''', input)
+
+    movie_list = []
+    item = movie.fetchone()
+    while not item == None:
+        movie_list.append(item)
+        item = movie.fetchone()
+
+    actor_list = []
+    item = other.fetchone()
+    while not item == None:
+        actor_list.append(item)
+        item = other.fetchone()
+
+    genre_list = []
+    item = genre.fetchone()
+    while not item == None:
+        genre_list.append(item)
+        item = genre.fetchone()
+
+    movie.close()
+    other.close()
+    genre.close()
+    context = dict(data = movie_list, data1 = actor_list, data2 = genre_list)
+    return render_template("movieresult.html", **context)
+
+
+@app.route('/recommend', methods=['POST'])
+def recommend():
+    input = request.form['method']
+    user_id = int(request.form['userid'])
+    print input
+    if input == "age":
+        user = g.conn.execute("SELECT age FROM users WHERE uid = %s", user_id)
+        user_age = int(user.fetchone()['age'])
+        print user_age
+
+        movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
+        FROM users U, rate R, movie M
+        WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5''',user_age)
+
+        movie_list = []
+        item = movie.fetchone()
+        while not item == None:
+            movie_list.append(item)
+            item = movie.fetchone()
+        context = dict(data = movie_list)
+        user.close()
+        movie.close()
+        return render_template("recommendation.html", **context)
+
+    elif input == "gender":
+        return 'h1'
+    elif input == "occupation":
+        return 'h1'
+    elif input == "genre":
+        return 'h1'
 
 if __name__ == "__main__":
   import click

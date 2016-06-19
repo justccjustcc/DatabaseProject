@@ -1,20 +1,27 @@
 <html>
 <body>
   <h1>Director Search Result:</h1>
-  <h2>Director: {{data[0].dname}}</h2>
-  <h2>Director ID: {{data[0].did}}</h2>
-  <h3>Found {{data[0].count}} Movie directed by {{data[0].dname}}:<h3>
 
-  <ul>
-  {%for t in data%}
-  <li>
-  <h3>{{t.mname}} <small>({{t.year}})</small></h3>
-  <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
-  <br></br>
-  </li>
-  {%endfor%}
+  {% for t in data %}
+  <h2>Director: {{t.dname}}	<small>ID: {{data[0].did}}</small></h2>
+  <h3>Found {{t.count}} Movie directed by {{t.dname}}:<h3>
+    <ul>
+    {%for i in data1%}
+    {% if t.did == i.did%}
+      <li>
+      <h3>{{i.mname}} <small>({{i.year}})</small></h3>
+      <h3>Rotten Tomato Audience Rating: {{i.rating}}</h3>
+      <br></br>
+      </li>
+    {% endif %}
+    {%endfor%}
+    </ul>
+    <br></br>
+  {% endfor %}
+
+
+
   <p>No more result.</p>
-  </ul>
   <p><a href="/">Back to home page.</a></p>
 </body>
 </html>
