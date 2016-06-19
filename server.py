@@ -232,7 +232,7 @@ def searchActor():
 def chooseArea():
     input = request.form['area']
     country = g.conn.execute('''SELECT C.cname FROM area A, country C
-    WHERE A.rid = C.rid AND A.aname = %s''', input)
+    WHERE A.rid = C.rid AND A.rname = %s''', input)
     country_list = []
     for result in country:
         country_list.append(result['cname'])
@@ -242,7 +242,7 @@ def chooseArea():
 
 @app.route('/chooseCountry', methods=['POST'])
 def chooseCountry():
-    input request.form['country']
+    input = request.form['country']
     movie = g.conn.execute('''SELECT * FROM country WHERE cid = %s''', input)
     movie_list = []
     for t in movie_list:
