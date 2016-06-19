@@ -101,14 +101,14 @@
 101|john_dahl|John Dahl
 102|dennis_dugan|Dennis Dugan
 103|clint_eastwood|Clint Eastwood
-104|doris_doerrie|Doris DÀÜrrie
+104|doris_doerrie|Doris Dˆrrie
 105|brian_henson|Brian Henson
 106|mel_gibson|Mel Gibson
 107|martin_scorsese|Martin Scorsese
 108|stanley_tong|Stanley Tong
 109|barbet_schroeder|Barbet Schroeder
 110|mort_ransen|Mort Ransen
-111|etienne_chatiliez|‚Ä¶tienne Chatiliez
+111|etienne_chatiliez|…tienne Chatiliez
 112|john_blair|John Blair
 113|benjamin-ross|Benjamin Ross
 114|eric_schaeffer|Eric Schaeffer
@@ -143,7 +143,7 @@
 143|michael_catonjones|Michael Caton-Jones
 144|michael_catonjones|Michael Caton-Jones
 145|joel_schumacher|Joel Schumacher
-146|luis_bunuel|Luis Bu√íuel
+146|luis_bunuel|Luis BuÒuel
 147|john_boorman|John Boorman
 148|paul_auster|Paul Auster
 149|1055159-michael_moore|Michael Moore
@@ -178,12 +178,12 @@
 178|chris_columbus|Chris Columbus
 179|daisy_von_scherler_mayer|Daisy von Scherler Mayer
 180|gregory_widen|Gregory Widen
-181|max-ophuls|Max Oph¬∏ls
+181|max-ophuls|Max Oph¸ls
 182|sidney_lumet|Sidney Lumet
-183|roland_joffe|Roland Joff√à
+183|roland_joffe|Roland JoffÈ
 184|paul_verhoeven|Paul Verhoeven
 185|wayne_wang|Wayne Wang
-186|162659443|Lasse HallstrÀÜm
+186|162659443|Lasse Hallstrˆm
 187|roger_donaldson|Roger Donaldson
 188|james_keach|James Keach
 189|kathryn_bigelow|Kathryn Bigelow
@@ -229,7 +229,7 @@
 229|kevin_lima|Kevin Lima
 230|brett_leonard|Brett Leonard
 231|carlo_carlei|Carlo Carlei
-232|gerard_corbiau|G√àrard Corbiau
+232|gerard_corbiau|GÈrard Corbiau
 233|mike_hodges|Mike Hodges
 234|art_clokey|Art Clokey
 235|charles_burnett|Charles Burnett
@@ -249,7 +249,7 @@
 249|barbet_schroeder|Barbet Schroeder
 250|george_lucas|George Lucas
 251|gillian_armstrong|Gillian Armstrong
-252|alfonso_cuaron|Alfonso Cuar√õn
+252|alfonso_cuaron|Alfonso CuarÛn
 253|ken_loach|Ken Loach
 254|claude_chabrol|Claude Chabrol
 255|alfonso_arau|Alfonso Arau
@@ -289,7 +289,7 @@
 289|antonia_bird|Antonia Bird
 290|robert_redford|Robert Redford
 291|kayo-hatta|Kayo Hatta
-292|patrice_chereau|Patrice Ch√àreau
+292|patrice_chereau|Patrice ChÈreau
 293|sam_raimi|Sam Raimi
 294|peter_yates|Peter Yates
 295|robert_altman|Robert Altman
@@ -307,7 +307,7 @@
 307|frank_darabont|Frank Darabont
 308|danny_boyle|Danny Boyle
 309|scott_mcgehee|Scott McGehee
-310|tomas_gutierrez_alea|Tom¬∑s Guti√àrrez Alea
+310|tomas_gutierrez_alea|Tom·s GutiÈrrez Alea
 311|george_huang|George Huang
 312|geoff_burton|Geoff Burton
 313|kelly_makin|Kelly Makin
@@ -322,7 +322,7 @@
 322|louis_malle|Louis Malle
 323|steven_soderbergh|Steven Soderbergh
 324|hank_milestone|Umberto Lenzi
-325|162659443|Lasse HallstrÀÜm
+325|162659443|Lasse Hallstrˆm
 326|brett_leonard|Brett Leonard
 327|jon_turteltaub|Jon Turteltaub
 328|david_kim|David Kim
@@ -526,7 +526,7 @@
 526|ferzan_ozpetek|Ferzan Ozpetek
 527|ernest_r_dickerson|Ernest R. Dickerson
 528|deran_sarafian|Deran Sarafian
-529|francois_girard|Fran√Åois Girard
+529|francois_girard|FranÁois Girard
 530|andrew_fleming|Andrew Fleming
 531|henry_selick|Henry Selick
 532|stephen_herek|Stephen Herek
@@ -542,13 +542,13 @@
 542|hongjin_na|Hong-jin Na
 543|guillermo_del_toro|Guillermo del Toro
 544|daniel_algrant|Daniel Algrant
-545|pedro_almodovar|Pedro Almod√õvar
+545|pedro_almodovar|Pedro AlmodÛvar
 546|gurinder_chadha|Gurinder Chadha
 547|andrew_scheinman|Andrew Scheinman
-548|ake-sandgren|‚âàke Sandgren
+548|ake-sandgren|≈ke Sandgren
 549|richard_loncraine|Richard Loncraine
 550|eva_sereny|Eva Sereny
-551|lina-wertmuller|Lina Wertm¬∏ller
+551|lina-wertmuller|Lina Wertm¸ller
 552|david_o_russell|David O. Russell
 553|penelope_spheeris|Penelope Spheeris
 554|1042523-george_miller|George Miller
@@ -586,12 +586,12 @@
 586|ryan_parrott|Ryan Parrott
 587|franco_brusati|Franco Brusati
 588|wolfgang_reitherman|Wolfgang Reitherman
-589|pedro_almodovar|Pedro Almod√õvar
+589|pedro_almodovar|Pedro AlmodÛvar
 590|fernando_trueba|Fernando Trueba
 591|werner_herzog|Werner Herzog
 592|andre_techine|Andre Techine
 593|vern-oakley|Vern Oakley
-594|_0442455|Mika Kaurism‚Ä∞ki
+594|_0442455|Mika Kaurism‰ki
 595|mustafa_adouani|Mustafa Adouani
 596|martin_lawrence|Martin Lawrence
 597|mats_bigert|Mats Bigert
@@ -608,20 +608,20 @@
 608|tim_sullivan_iii|Tim Sullivan (III)
 609|spike_lee|Spike Lee
 610|jeremiah_s_chechik|Jeremiah S. Chechik
-611|herve_palud|Herv√à Palud
+611|herve_palud|HervÈ Palud
 612|_0738001|Carlo Rola
 613|claude_sautet|Claude Sautet
 614|edward_zwick|Edward Zwick
 615|jj_abrams|J.J. Abrams
 616|fridrik_thor_fridriksson|Fridrik Thor Fridriksson
 617|pen_densham|Pen Densham
-618|_0941811|SÀÜnke Wortmann
+618|_0941811|Sˆnke Wortmann
 619|cheolsu-park|Cheol-su Park
 620|rob_cohen|Rob Cohen
 621|michael_verhoeven|Michael Verhoeven
 622|walter_hill|Walter Hill
 623|richard_wherrett|Richard Wherrett
-624|rene_clement|Ren√à Cl√àment
+624|rene_clement|RenÈ ClÈment
 625|kirsten_sheridan|Kirsten Sheridan
 626|henry_selick|Henry Selick
 627|james_foley|James Foley
@@ -671,7 +671,7 @@
 671|jeanpaul_rappeneau|Jean-Paul Rappeneau
 672|jack_hill|Jack Hill
 673|manuel_gomez_pereira|Manuel Gomez Pereira
-674|jean_marie_poire|Jean-Marie Poir√à
+674|jean_marie_poire|Jean-Marie PoirÈ
 675|harold_ramis|Harold Ramis
 676|nick_park|Nick Park
 677|brett_thompson|Brett Thompson
@@ -715,7 +715,7 @@
 715|charles_matthau|Charles Matthau
 716|_0402383|Chris Hunt
 717|ari_libsker|Ari Libsker
-718|gaston_kabore|Gaston Kabor√à
+718|gaston_kabore|Gaston KaborÈ
 719|federico_fellini|Federico Fellini
 720|danny_boyle|Danny Boyle
 721|scott_winant|Scott Winant
@@ -727,7 +727,7 @@
 727|bobby_farrelly|Bobby Farrelly
 728|charles_russell|Charles Russell
 729|tom_shadyac|Tom Shadyac
-730|_0069833|Mar√åa Luisa Bemberg
+730|_0069833|MarÌa Luisa Bemberg
 731|yale_strom|Yale Strom
 732|gyula_gazdag|Gyula Gazdag
 733|gerard_mordillat|Gerard Mordillat
@@ -750,7 +750,7 @@
 750|mitch_marcus|Mitch Marcus
 751|_0375476|Jaime Hellman
 752|arlene_sanford|Arlene Sanford
-753|luis_bunuel|Luis Bu√íuel
+753|luis_bunuel|Luis BuÒuel
 754|alex_graves|Alex Graves
 755|eric_rohmer|Eric Rohmer
 756|werner_herzog|Werner Herzog
@@ -781,7 +781,7 @@
 781|ron_shelton|Ron Shelton
 782|fred_schepisi|Fred Schepisi
 783|francis_ford_coppola|Francis Ford Coppola
-784|377794703|SÀÜnke Wortmann
+784|377794703|Sˆnke Wortmann
 785|stanley_tong|Stanley Tong
 786|lisa_krueger|Lisa Krueger
 787|robert_schwentke|Robert Schwentke
@@ -829,7 +829,7 @@
 829|george_cukor|George Cukor
 830|billy_wilder|Billy Wilder
 831|william_wyler|William Wyler
-832|alfonso_cuaron|Alfonso Cuar√õn
+832|alfonso_cuaron|Alfonso CuarÛn
 833|vincente_minnelli|Vincente Minnelli
 834|richard_thorpe|Richard Thorpe
 835|george_cukor|George Cukor
@@ -869,7 +869,7 @@
 869|frank_popper|Frank Popper
 870|howard_hawks|Howard Hawks
 871|george_stevens|George Stevens
-872|roland_joffe|Roland Joff√à
+872|roland_joffe|Roland JoffÈ
 873|william_wellman|William A. Wellman
 874|john_cromwell|John Cromwell
 875|archie_mayo|Archie Mayo
@@ -1011,7 +1011,7 @@
 1011|donald_petrie|Donald Petrie
 1012|abel_ferrara|Abel Ferrara
 1013|joe_nussbaum|Joe Nussbaum
-1014|benoit_jacquot|Beno√ìt Jacquot
+1014|benoit_jacquot|BenoÓt Jacquot
 1015|jaco_van_dormael|Jaco Van Dormael
 1016|paul_thomas_anderson|Paul Thomas Anderson
 1017|milos_forman|Milos Forman
@@ -1047,7 +1047,7 @@
 1047|anthony_mann|Anthony Mann
 1048|vittorio_de_sica|Vittorio De Sica
 1049|jean_delannoy|Jean Delannoy
-1050|volker_schloendorff|Volker SchlÀÜndorff
+1050|volker_schloendorff|Volker Schlˆndorff
 1051|peter_medak|Peter Medak
 1052|martine_dugowson|Martine Dugowson
 1053|jeanluc_godard|Jean-Luc Godard
@@ -1072,7 +1072,7 @@
 1072|john_sayles|John Sayles
 1073|pierre_trividic|Pierre Trividic
 1074|errol_morris|Errol Morris
-1075|pedro_almodovar|Pedro Almod√õvar
+1075|pedro_almodovar|Pedro AlmodÛvar
 1076|alek-keshishian|Alek Keshishian
 1077|jennie-livingston|Jennie Livingston
 1078|milos_forman|Milos Forman
@@ -1151,7 +1151,7 @@
 1151|jon_avnet|Jon Avnet
 1152|franklin_j_schaffner|Franklin J. Schaffner
 1153|jim_jarmusch|Jim Jarmusch
-1154|katsuhiro_otomo|Katsuhiro ‚Äòtomo
+1154|katsuhiro_otomo|Katsuhiro ‘tomo
 1155|russell_mulcahy|Russell Mulcahy
 1156|stuart_rosenberg|Stuart Rosenberg
 1157|1041609-michael_gordon|Michael Gordon
@@ -1175,8 +1175,8 @@
 1175|james_ivory|James Ivory
 1176|martha_coolidge|Martha Coolidge
 1177|1042742-alan_parker|Alan Parker
-1178|roland_joffe|Roland Joff√à
-1179|162659443|Lasse HallstrÀÜm
+1178|roland_joffe|Roland JoffÈ
+1179|162659443|Lasse Hallstrˆm
 1180|fred_m_wilcox|Fred M. Wilcox
 1181|phil_alden_robinson|Phil Alden Robinson
 1182|john_huston|John Huston
@@ -1303,9 +1303,9 @@
 1303|e_max_frye|E. Max Frye
 1304|jeremiah_chechik|Jeremiah Chechik
 1305|1053511-steve_james|Steve James
-1306|juan_carlos_tabio|Juan Carlos Tab√åo
+1306|juan_carlos_tabio|Juan Carlos TabÌo
 1307|bryan_spicer|Bryan Spicer
-1308|jan_sverak|Jan Sver¬∑k
+1308|jan_sverak|Jan Sver·k
 1309|326391904|Vondie CurtisHall
 1310|christopher_guest|Christopher Guest
 1311|sergey_bodrov|Sergey Bodrov
@@ -1325,7 +1325,7 @@
 1325|jeff_pollack|Jeff Pollack
 1326|1105876-mark_christopher|Mark Christopher
 1327|john_irvin|John Irvin
-1328|alfonso_cuaron|Alfonso Cuar√õn
+1328|alfonso_cuaron|Alfonso CuarÛn
 1329|john_pasquin|John Pasquin
 1330|mira_nair|Mira Nair
 1331|elwood-perez|Elwood Perez
@@ -1362,7 +1362,7 @@
 1362|mick_jackson|Mick Jackson
 1363|1054857-peter_duncan|Peter Duncan
 1364|jay-roach|Jay Roach
-1365|pedro_almodovar|Pedro Almod√õvar
+1365|pedro_almodovar|Pedro AlmodÛvar
 1366|zoe_r_cassavetes|Zoe R. Cassavetes
 1367|cecil_b_demille|Cecil B. DeMille
 1368|mo_ogrodnik|Mo Ogrodnik
@@ -1375,7 +1375,7 @@
 1375|kevin_bacon|Kevin Bacon
 1376|rusty_cundieff|Rusty Cundieff
 1377|jeanpierre_dardenne|Jean-Pierre Dardenne
-1378|agnes_varda|Agn√ãs Varda
+1378|agnes_varda|AgnËs Varda
 1379|joe_mantello|Joe Mantello
 1380|masayuki_suo|Masayuki Suo
 1381|duncan_mclachlan|Duncan McLachlan
@@ -1406,7 +1406,7 @@
 1406|gary_nelson|Gary Nelson
 1407|pj_hogan|P.J. Hogan
 1408|shinya_tsukamoto|Shinya Tsukamoto
-1409|cedric_klapisch|C√àdric Klapisch
+1409|cedric_klapisch|CÈdric Klapisch
 1410|jeanluc_godard|Jean-Luc Godard
 1411|john_woo|John Woo
 1412|tarsem|Tarsem Singh
@@ -1455,7 +1455,7 @@
 1455|robert_kurtzman|Robert Kurtzman
 1456|jocelyn_moorhouse|Jocelyn Moorhouse
 1457|david_fincher|David Fincher
-1458|felix_enriquez_alcala|F√àlix Enr√åquez Alcal¬∑
+1458|felix_enriquez_alcala|FÈlix EnrÌquez Alcal·
 1459|oliver_stone|Oliver Stone
 1460|john_schlesinger|John Schlesinger
 1461|mark_joffe|Mark Joffe
@@ -1518,9 +1518,9 @@
 1518|_0365311|Scott Harris
 1519|steven_spielberg|Steven Spielberg
 1520|robert_duvall|Robert Duvall
-1521|agnes_merlet|Agn√ãs Merlet
+1521|agnes_merlet|AgnËs Merlet
 1522|sean-mathias|Sean Mathias
-1523|louis-saia|Louis Sa√îa
+1523|louis-saia|Louis SaÔa
 1524|neil_jordan|Neil Jordan
 1525|woody_allen|Woody Allen
 1526|les_mayfield|Les Mayfield
@@ -1551,7 +1551,7 @@
 1551|joel_coen|Joel Coen
 1552|alan_rudolph|Alan Rudolph
 1553|alain_berliner|Alain Berliner
-1554|alfonso_cuaron|Alfonso Cuar√õn
+1554|alfonso_cuaron|Alfonso CuarÛn
 1555|sean_mcnamara|Sean McNamara
 1556|george_mendeluk|George Mendeluk
 1557|darin_scott|Darin Scott
@@ -1585,7 +1585,7 @@
 1585|_0668132|Michael Paxton
 1586|robert_dornhelm|Robert Dornhelm
 1587|roberto_benabib|Roberto Benabib
-1588|volker_schloendorff|Volker SchlÀÜndorff
+1588|volker_schloendorff|Volker Schlˆndorff
 1589|james_l_brooks|James L. Brooks
 1590|abel_ferrara|Abel Ferrara
 1591|john_sayles|John Sayles
@@ -1633,7 +1633,7 @@
 1633|robert_altman|Robert Altman
 1634|1196862-nick_gomez|Nick Gomez
 1635|barnet_kellman|Barnet Kellman
-1636|pedro_almodovar|Pedro Almod√õvar
+1636|pedro_almodovar|Pedro AlmodÛvar
 1637|jake_kasdan|Jake Kasdan
 1638|gary_oldman|Gary Oldman
 1639|1052316-peter_hewitt|Peter Hewitt
@@ -1848,7 +1848,7 @@
 1848|david_zucker|David Zucker
 1849|sarah_kelly|Sarah Kelly
 1850|sandra_goldbacher|Sandra Goldbacher
-1851|benoit_jacquot|Beno√ìt Jacquot
+1851|benoit_jacquot|BenoÓt Jacquot
 1852|1055159-michael_moore|Michael Moore
 1853|woody_allen|Woody Allen
 1854|jacques_tourneur|Jacques Tourneur
@@ -1860,7 +1860,7 @@
 1860|joe_dante|Joe Dante
 1861|kevin_reynolds|Kevin Reynolds
 1862|liliana_cavani|Liliana Cavani
-1863|istvan_szabo|Istv¬∑n Szab√õ
+1863|istvan_szabo|Istv·n SzabÛ
 1864|david_lynch|David Lynch
 1865|jeremy_kagan|Jeremy Kagan
 1866|wolfgang_reitherman|Wolfgang Reitherman
@@ -1974,7 +1974,7 @@
 1974|bill_plympton|Bill Plympton
 1975|gregory_nava|Gregory Nava
 1976|robert_bierman|Robert Bierman
-1977|francois_ozon|Fran√Åois Ozon
+1977|francois_ozon|FranÁois Ozon
 1978|ron_howard|Ron Howard
 1979|brian_de_palma|Brian DePalma
 1980|bob_saget|Bob Saget
@@ -2014,8 +2014,8 @@
 2014|lance_hool|Lance Hool
 2015|mark_johnson|Mark Johnson
 2016|robert_towne|Robert Towne
-2017|lina-wertmuller|Lina Wertm¬∏ller
-2018|lina-wertmuller|Lina Wertm¬∏ller
+2017|lina-wertmuller|Lina Wertm¸ller
+2018|lina-wertmuller|Lina Wertm¸ller
 2019|tony_bill|Tony Bill
 2020|lewis_john_carlino|Lewis John Carlino
 2021|randal_kleiser|Randal Kleiser
@@ -2135,9 +2135,9 @@
 2135|thomas_vinterberg|Thomas Vinterberg
 2136|1059231-john_waters|John Waters
 2137|daniel_davis_edward_d_wood_jr|Daniel Davis [Edward D. Wood Jr.]
-2138|inoshiro-honda|Ishir√ô Honda
+2138|inoshiro-honda|IshirÙ Honda
 2139|roland_emmerich|Roland Emmerich
-2140|inoshiro-honda|Ishir√ô Honda
+2140|inoshiro-honda|IshirÙ Honda
 2141|peter_jackson|Peter Jackson
 2142|peter_jackson|Peter Jackson
 2143|charles_mccracken_ii|Charles McCracken (II)
@@ -2223,7 +2223,7 @@
 2223|rodney_amateau|Rodney Amateau
 2224|willard_huyck|Willard Huyck
 2225|roman_polanski|Roman Polanski
-2226|tibor_takacs|Tibor Tak¬∑cs
+2226|tibor_takacs|Tibor Tak·cs
 2227|1040953-nick_castle|Nick Castle
 2228|david_cronenberg|David Cronenberg
 2229|david_cronenberg|David Cronenberg
@@ -2265,7 +2265,7 @@
 2265|myles-berkowitz|Myles Berkowitz
 2266|joseph_vilsmaier|Joseph Vilsmaier
 2267|gus_van_sant|Gus Van Sant
-2268|rene_laloux|Ren√à Laloux
+2268|rene_laloux|RenÈ Laloux
 2269|hugh_wilson|Hugh Wilson
 2270|luis_mandoki|Luis Mandoki
 2271|julia_sweeney|Julia Sweeney
@@ -2313,7 +2313,7 @@
 2313|roger_kumble|Roger Kumble
 2314|guy_ritchie|Guy Ritchie
 2315|adam_bernstein|Adam Bernstein
-2316|benoit_jacquot|Beno√ìt Jacquot
+2316|benoit_jacquot|BenoÓt Jacquot
 2317|pj_castellaneta|P.J. Castellaneta
 2318|ulu_grosbard|Ulu Grosbard
 2319|aluisio_abranches|Aluisio Abranches
@@ -2353,13 +2353,13 @@
 2353|robert_altman|Robert Altman
 2354|erich_von_stroheim|Erich von Stroheim
 2355|julio_medem|Julio Medem
-2356|roland_joffe|Roland Joff√à
+2356|roland_joffe|Roland JoffÈ
 2357|richard_linklater|Richard Linklater
 2358|vince-clark|Vince Clark
 2359|gillies-mackinnon|Gillies MacKinnon
 2360|jacques_martineau|Jacques Martineau
 2361|roberto_benigni|Roberto Benigni
-2362|alejandro_amenabar|Alejandro Amen¬∑bar
+2362|alejandro_amenabar|Alejandro Amen·bar
 2363|_0412999|Dariusz Jablonski
 2364|james_merendino|James Merendino
 2365|jeff_pollack|Jeff Pollack
@@ -2437,7 +2437,7 @@
 2437|josef_rusnak|Josef Rusnak
 2438|theo-angelopoulos|Theodoros Angelopoulos
 2439|mike_figgis|Mike Figgis
-2440|maria_ripoll|Mar√åa Ripoll
+2440|maria_ripoll|MarÌa Ripoll
 2441|jon_turteltaub|Jon Turteltaub
 2442|wim_wenders|Wim Wenders
 2443|morgan_j_freeman|Morgan J. Freeman
@@ -2446,7 +2446,7 @@
 2446|john_sayles|John Sayles
 2447|jay-roach|Jay Roach
 2448|_0494467|Yvan Le Moine
-2449|francois_girard|Fran√Åois Girard
+2449|francois_girard|FranÁois Girard
 2450|kevin_lima|Kevin Lima
 2451|simon_west|Simon West
 2452|gil_junger|Gil Junger
@@ -2490,8 +2490,8 @@
 2490|stanley_kubrick|Stanley Kubrick
 2491|stanley_kubrick|Stanley Kubrick
 2492|stanley_kubrick|Stanley Kubrick
-2493|francois_truffaut|Fran√Åois Truffaut
-2494|francois_truffaut|Fran√Åois Truffaut
+2493|francois_truffaut|FranÁois Truffaut
+2494|francois_truffaut|FranÁois Truffaut
 2495|ken_kwapis|Ken Kwapis
 2496|peter_weir|Peter Weir
 2497|michael_ritchie|Michael Ritchie
@@ -2503,7 +2503,7 @@
 2503|bertrand_blier|Bertrand Blier
 2504|jerrold_freedman|Jerrold Freedman
 2505|_0488108|Brian Large
-2506|roland_joffe|Roland Joff√à
+2506|roland_joffe|Roland JoffÈ
 2507|roger_corman|Roger Corman
 2508|roger_corman|Roger Corman
 2509|gary_nelson|Gary Nelson
@@ -2663,8 +2663,8 @@
 2663|sydney_pollack|Sydney Pollack
 2664|bruce_mcculloch|Bruce McCulloch
 2665|kimberly_peirce|Kimberly Peirce
-2666|cedric_kahn|C√àdric Kahn
-2667|_0305054|Jos√à Luis Garci
+2666|cedric_kahn|CÈdric Kahn
+2667|_0305054|JosÈ Luis Garci
 2668|steven_soderbergh|Steven Soderbergh
 2669|jeff_abugov|Jeff Abugov
 2670|mickey_liddell|Mickey Liddell
@@ -2673,7 +2673,7 @@
 2673|lawrence_kasdan|Lawrence Kasdan
 2674|1053315-john_hughes|John Hughes
 2675|peter_weir|Peter Weir
-2676|marcel_carne|Marcel Carn√à
+2676|marcel_carne|Marcel CarnÈ
 2677|clint_eastwood|Clint Eastwood
 2678|ted_post|Ted Post
 2679|jonathan_demme|Jonathan Demme
@@ -2695,7 +2695,7 @@
 2695|charles_vidor|Charles Vidor
 2696|joshua_logan|Joshua Logan
 2697|adrian_lyne|Adrian Lyne
-2698|regis_wargnier|R√àgis Wargnier
+2698|regis_wargnier|RÈgis Wargnier
 2699|robert_aldrich|Robert Aldrich
 2700|james_bridges|James Bridges
 2701|richard_lester|Richard Lester
@@ -2814,11 +2814,11 @@
 2814|kurt_voss|Kurt Voss
 2815|steve_oedekerk|Steve Oedekerk
 2816|richard_fleischer|Richard Fleischer
-2817|pedro_almodovar|Pedro Almod√õvar
+2817|pedro_almodovar|Pedro AlmodÛvar
 2818|sidney_lumet|Sidney Lumet
 2819|paul_newman|Paul Newman
 2820|wd_richter|W.D. Richter
-2821|ramon_menendez|Ram√õn Men√àndez
+2821|ramon_menendez|RamÛn MenÈndez
 2822|norman_jewison|Norman Jewison
 2823|claudia_carey|Claudia Carey
 2824|sydney_pollack|Sydney Pollack
@@ -2829,7 +2829,7 @@
 2829|patricia_rozema|Patricia Rozema
 2830|tim_burton|Tim Burton
 2831|ventura_pons|Ventura Pons
-2832|pedro_almodovar|Pedro Almod√õvar
+2832|pedro_almodovar|Pedro AlmodÛvar
 2833|jean_rollin|Jean Rollin
 2834|charley_rogers|Charley Rogers
 2835|richard_donner|Richard Donner
@@ -2892,7 +2892,7 @@
 2892|tim_robbins|Tim Robbins
 2893|eddie_griffin|Eddie Griffin
 2894|frank_darabont|Frank Darabont
-2895|162659443|Lasse HallstrÀÜm
+2895|162659443|Lasse Hallstrˆm
 2896|john_mallory_asher|John Mallory Asher
 2897|lexi_alexander|Lexi Alexander
 2898|roland_west|Roland West
@@ -2968,7 +2968,7 @@
 2968|kris_isacsson|Kris Isacsson
 2969|robert_mugge|Robert Mugge
 2970|ronald_neame|Ronald Neame
-2971|herbert_blache|Herbert Blach√à
+2971|herbert_blache|Herbert BlachÈ
 2972|buster_keaton|Buster Keaton
 2973|art_linson|Art Linson
 2974|mikael_kristersson|Mikael Kristersson
@@ -3000,7 +3000,7 @@
 3000|ron_shelton|Ron Shelton
 3001|fran_rubel_kuzui|Fran Rubel Kuzui
 3002|john_woo|John Woo
-3003|andre_bonzel|Andr√à Bonzel
+3003|andre_bonzel|AndrÈ Bonzel
 3004|robert_rodriguez|Robert Rodriguez
 3005|roger_spottiswoode|Roger Spottiswoode
 3006|steve_miner|Steve Miner
@@ -3047,7 +3047,7 @@
 3047|eric_mendelsohn|Eric Mendelsohn
 3048|anders_w_berthelsen|Anders W. Berthelsen
 3049|dj_pooh|D.J. Pooh
-3050|pontus_lowenhielm|Pontus LÀÜwenhielm
+3050|pontus_lowenhielm|Pontus Lˆwenhielm
 3051|1196862-nick_gomez|Nick Gomez
 3052|john_schlesinger|John Schlesinger
 3053|mike_nichols|Mike Nichols
@@ -3079,7 +3079,7 @@
 3079|aileen-ritchie|Aileen Ritchie
 3080|wojciech_wojcik|Wojciech Wojcik
 3081|roman_polanski|Roman Polanski
-3082|regis_wargnier|R√àgis Wargnier
+3082|regis_wargnier|RÈgis Wargnier
 3083|albert_brooks|Albert Brooks
 3084|peter_yates|Peter Yates
 3085|david_anspaugh|David Anspaugh
@@ -3099,7 +3099,7 @@
 3099|irving_pichel|Irving Pichel
 3100|_0478303|Marcel L'Herbier
 3101|fritz_lang|Fritz Lang
-3102|volker_schloendorff|Volker SchlÀÜndorff
+3102|volker_schloendorff|Volker Schlˆndorff
 3103|danny_boyle|Danny Boyle
 3104|anthony_mann|Anthony Mann
 3105|joseph_sargent|Joseph Sargent
@@ -3125,7 +3125,7 @@
 3125|james_cameron|James Cameron
 3126|roy_ward_baker|Roy Ward Baker
 3127|raoul_walsh|Raoul Walsh
-3128|benoit_mariage|Beno√ìt Mariage
+3128|benoit_mariage|BenoÓt Mariage
 3129|steven_soderbergh|Steven Soderbergh
 3130|1036363-james_wong|James Wong
 3131|christina_andreef|Christina Andreef
@@ -3203,7 +3203,7 @@
 3203|david_macdonald|David MacDonald
 3204|don_paul|Don Paul
 3205|steven_spielberg|Steven Spielberg
-3206|eugenio_martin|Eugenio Mart√ån
+3206|eugenio_martin|Eugenio MartÌn
 3207|david_beaird|David Beaird
 3208|george_fitzmaurice|George Fitzmaurice
 3209|henry_hathaway|Henry Hathaway
@@ -3298,7 +3298,7 @@
 3298|harald_reinl|Harald Reinl
 3299|martin_davidson|Martin Davidson
 3300|stan_dragoti|Stan Dragoti
-3301|rene_laloux|Ren√à Laloux
+3301|rene_laloux|RenÈ Laloux
 3302|roger_christian|Roger Christian
 3303|nicholas_hytner|Nicholas Hytner
 3304|steve_rash|Steve Rash
@@ -3341,8 +3341,8 @@
 3341|peter_r_hunt|Peter R. Hunt
 3342|john_frankenheimer|John Frankenheimer
 3343|lewis_gilbert|Lewis Gilbert
-3344|patrice_chereau|Patrice Ch√àreau
-3345|agnes_varda|Agn√ãs Varda
+3344|patrice_chereau|Patrice ChÈreau
+3345|agnes_varda|AgnËs Varda
 3346|lewis_gilbert|Lewis Gilbert
 3347|guy_hamilton|Guy Hamilton
 3348|abel_ferrara|Abel Ferrara
@@ -3350,7 +3350,7 @@
 3350|albert_dekker|Albert Dekker
 3351|edward_ludwig|Edward Ludwig
 3352|raoul_walsh|Raoul Walsh
-3353|agnes_varda|Agn√ãs Varda
+3353|agnes_varda|AgnËs Varda
 3354|raja_gosnell|Raja Gosnell
 3355|val_guest|Val Guest
 3356|paul_schrader|Paul Schrader
@@ -3390,7 +3390,7 @@
 3390|steve_kloves|Steve Kloves
 3391|john_huston|John Huston
 3392|joel_schumacher|Joel Schumacher
-3393|rene_laloux|Ren√à Laloux
+3393|rene_laloux|RenÈ Laloux
 3394|bob_clark_iii|Bob Clark (III)
 3395|bob_clark_iii|Bob Clark (III)
 3396|james_komack|James Komack
@@ -3428,7 +3428,7 @@
 3428|kenneth_branagh|Kenneth Branagh
 3429|hal_ashby|Hal Ashby
 3430|ralph_bakshi|Ralph Bakshi
-3431|jean_francois_richet|Jean-Fran√Åois Richet
+3431|jean_francois_richet|Jean-FranÁois Richet
 3432|kathryn_bigelow|Kathryn Bigelow
 3433|carl_franklin|Carl Franklin
 3434|gordon_parks|Gordon Parks
@@ -3448,7 +3448,7 @@
 3448|robert_iscove|Robert Iscove
 3449|gordon_parks|Gordon Parks
 3450|don_bluth|Don Bluth
-3451|jose_luis_cuerda|Jos√à Luis Cuerda
+3451|jose_luis_cuerda|JosÈ Luis Cuerda
 3452|alison_maclean|Alison Maclean
 3453|woody_allen|Woody Allen
 3454|raoul_ruiz|Raoul Ruiz
@@ -3477,7 +3477,7 @@
 3477|doug_mchenry|Doug McHenry
 3478|bob_cormack|Bob Cormack
 3479|hamilton_luske|Hamilton Luske
-3480|jorg_buttgereit|JÀÜrg Buttgereit
+3480|jorg_buttgereit|Jˆrg Buttgereit
 3481|richard_talmadge|Richard Talmadge
 3482|kurt_neumann|Kurt Neumann
 3483|john_guillermin|John Guillermin
@@ -3499,7 +3499,7 @@
 3499|mary_lambert|Mary Lambert
 3500|robert_zemeckis|Robert Zemeckis
 3501|kunihiko_yuyama|Kunihiko Yuyama
-3502|francois_ozon|Fran√Åois Ozon
+3502|francois_ozon|FranÁois Ozon
 3503|otto_preminger|Otto Preminger
 3504|geoff_murphy|Geoff Murphy
 3505|albert_henderson|Albert Henderson
@@ -3550,8 +3550,8 @@
 3550|lionel-coleman|Lionel Coleman
 3551|jenniphr_goodman|Jenniphr Goodman
 3552|gary_winick|Gary Winick
-3553|max_faerberboeck|Max F‚Ä∞rberbÀÜck
-3554|frederic_fonteyne|Fr√àd√àric Fonteyne
+3553|max_faerberboeck|Max F‰rberbˆck
+3554|frederic_fonteyne|FrÈdÈric Fonteyne
 3555|chuck_russell|Chuck Russell
 3556|1059231-john_waters|John Waters
 3557|fenton_bailey|Fenton Bailey
@@ -3703,7 +3703,7 @@
 3703|guy_ritchie|Guy Ritchie
 3704|david_seltzer|David Seltzer
 3705|yahoo_serious|Yahoo Serious
-3706|162659443|Lasse HallstrÀÜm
+3706|162659443|Lasse Hallstrˆm
 3707|danny_leiner|Danny Leiner
 3708|mark_dindal|Mark Dindal
 3709|harry_moses|Harry Moses
@@ -3751,7 +3751,7 @@
 3751|jonathan_kaplan|Jonathan Kaplan
 3752|milos_forman|Milos Forman
 3753|donald_petrie|Donald Petrie
-3754|norman_rene|Norman Ren√à
+3754|norman_rene|Norman RenÈ
 3755|jack_hill|Jack Hill
 3756|jack_hill|Jack Hill
 3757|hiroshi_nishikiori|Hiroshi Nishikiori
@@ -3761,7 +3761,7 @@
 3761|nadia-tass|Nadia Tass
 3762|_0880521|Liv Ullmann
 3763|adam_brooks|Adam Brooks
-3764|volker_schloendorff|Volker SchlÀÜndorff
+3764|volker_schloendorff|Volker Schlˆndorff
 3765|neil_turitz|Neil Turitz
 3766|dominik_mol|Dominik Mol
 3767|mike_newell|Mike Newell
@@ -3836,8 +3836,8 @@
 3836|hans_zimmer|Hans Zimmer
 3837|dennis_dugan|Dennis Dugan
 3838|jonathan_nossiter|Jonathan Nossiter
-3839|agnes_jaoui|Agn√ãs Jaoui
-3840|roland_joffe|Roland Joff√à
+3839|agnes_jaoui|AgnËs Jaoui
+3840|roland_joffe|Roland JoffÈ
 3841|chris_weitz|Chris Weitz
 3842|chuck-sheetz|Chuck Sheetz
 3843|pat_oconnor|Pat O'Connor
@@ -3900,7 +3900,7 @@
 3900|sean_s_cunningham|Sean S. Cunningham
 3901|jeff_kanew|Jeff Kanew
 3902|joe_roth|Joe Roth
-3903|norman_rene|Norman Ren√à
+3903|norman_rene|Norman RenÈ
 3904|spike_lee|Spike Lee
 3905|allan_dwan|Allan Dwan
 3906|alan_metter|Alan Metter
@@ -3919,12 +3919,12 @@
 3919|robert_rodriguez|Robert Rodriguez
 3920|_0201304|Gregory Poirier
 3921|john_boorman|John Boorman
-3922|alejandro_gonzalez_inniaritu|Alejandro Gonz¬∑lez I√í¬∑rritu
+3922|alejandro_gonzalez_inniaritu|Alejandro Gonz·lez IÒ·rritu
 3923|david_shapiro|David Shapiro
-3924|agnes_varda|Agn√ãs Varda
+3924|agnes_varda|AgnËs Varda
 3925|_1147200|Kevin Gorman
 3926|ted_demme|Ted Demme
-3927|jean_marie_poire|Jean-Marie Poir√à
+3927|jean_marie_poire|Jean-Marie PoirÈ
 3928|kunihiko_yuyama|Kunihiko Yuyama
 3929|bill_eagles|Bill Eagles
 3930|richard_dutcher|Richard Dutcher
@@ -3955,7 +3955,7 @@
 3955|stephen_sommers|Stephen Sommers
 3956|aoyama_shinji|Aoyama Shinji
 3957|veit_helmer|Veit Helmer
-3958|francois_ozon|Fran√Åois Ozon
+3958|francois_ozon|FranÁois Ozon
 3959|joseph_l_mankiewicz|Joseph L. Mankiewicz
 3960|anne_julien|Anne Julien
 3961|albert_brooks|Albert Brooks
@@ -4058,7 +4058,7 @@
 4058|adam_marcus|Adam Marcus
 4059|olivier_ducastel|Olivier Ducastel
 4060|chris_hegedus|Chris Hegedus
-4061|cedric_klapisch|C√àdric Klapisch
+4061|cedric_klapisch|CÈdric Klapisch
 4062|jonathan_glazer|Jonathan Glazer
 4063|dwight_yoakam|Dwight Yoakam
 4064|tom_tykwer|Tom Tykwer
@@ -4070,7 +4070,7 @@
 4070|michael_lehmann|Michael Lehmann
 4071|chris_nahon|Chris Nahon
 4072|keenen_ivory_wayans|Keenen Ivory Wayans
-4073|lea_pool|L√àa Pool
+4073|lea_pool|LÈa Pool
 4074|coralie|Coralie
 4075|tran-anh-hung|Anh Hung Tran
 4076|jerome_foulon|Jerome Foulon
@@ -4079,7 +4079,7 @@
 4079|hal_needham|Hal Needham
 4080|hal_needham|Hal Needham
 4081|jim_drake|Jim Drake
-4082|luis_bunuel|Luis Bu√íuel
+4082|luis_bunuel|Luis BuÒuel
 4083|howard_e_baker|Howard E. Baker
 4084|norman_taurog|Norman Taurog
 4085|roger_corman|Roger Corman
@@ -4114,7 +4114,7 @@
 4114|alexander_mackendrick|Alexander Mackendrick
 4115|douglas_sirk|Douglas Sirk
 4116|elio-petri|Elio Petri
-4117|istvan_szabo|Istv¬∑n Szab√õ
+4117|istvan_szabo|Istv·n SzabÛ
 4118|brian_de_palma|Brian DePalma
 4119|dario_argento|Dario Argento
 4120|charles_cozart|Charles Cozart
@@ -4161,7 +4161,7 @@
 4161|james_bridges|James Bridges
 4162|allan_arkush|Allan Arkush
 4163|bruno_nuytten|Bruno Nuytten
-4164|genevieve_robert|Genevi√ãve Robert
+4164|genevieve_robert|GeneviËve Robert
 4165|glenn_gordon_caron|Glenn Gordon Caron
 4166|roger_donaldson|Roger Donaldson
 4167|dennis_hopper|Dennis Hopper
@@ -4215,7 +4215,7 @@
 4215|daniel_petrie|Daniel Petrie
 4216|sidney_lumet|Sidney Lumet
 4217|ken_russell|Ken Russell
-4218|joyce_bunuel|Joyce Bu√íuel
+4218|joyce_bunuel|Joyce BuÒuel
 4219|stuart_burge|Stuart Burge
 4220|james_glickenhaus|James Glickenhaus
 4221|roger_spottiswoode|Roger Spottiswoode
@@ -4270,7 +4270,7 @@
 4270|dave_thomas|Dave Thomas
 4271|sidney_lumet|Sidney Lumet
 4272|john_milius|John Milius
-4273|roland_joffe|Roland Joff√à
+4273|roland_joffe|Roland JoffÈ
 4274|gordon_hessler|Gordon Hessler
 4275|graeme_clifford|Graeme Clifford
 4276|valerie_breiman|Valerie Breiman
@@ -4365,7 +4365,7 @@
 4365|paul_donovan|Paul Donovan
 4366|tony_richardson|Tony Richardson
 4367|david_caesar|David Caesar
-4368|jeroen_krabbe|Jeroen Krabb√à
+4368|jeroen_krabbe|Jeroen KrabbÈ
 4369|karel_reisz|Karel Reisz
 4370|peter_medak|Peter Medak
 4371|frank_henenlotter|Frank Henenlotter
@@ -4374,7 +4374,7 @@
 4374|garry_marshall|Garry Marshall
 4375|brett_ratner|Brett Ratner
 4376|_0719348|Pierre-Paul Renders
-4377|162659443|Lasse HallstrÀÜm
+4377|162659443|Lasse Hallstrˆm
 4378|howard_hawks|Howard Hawks
 4379|edouard_molinaro|Edouard Molinaro
 4380|edouard_molinaro|Edouard Molinaro
@@ -4383,7 +4383,7 @@
 4383|joshua_logan|Joshua Logan
 4384|don_siegel|Don Siegel
 4385|steven_m_martin|Steven M. Martin
-4386|francois_truffaut|Fran√Åois Truffaut
+4386|francois_truffaut|FranÁois Truffaut
 4387|ken_russell|Ken Russell
 4388|buddy_van_horn|Buddy Van Horn
 4389|basil_gelpke_ray_mccormack|Basil Gelpke & Ray McCormack
@@ -4391,7 +4391,7 @@
 4391|robert_clouse|Robert Clouse
 4392|chris_weitz|Chris Weitz
 4393|bobby_farrelly|Bobby Farrelly
-4394|alejandro_amenabar|Alejandro Amen¬∑bar
+4394|alejandro_amenabar|Alejandro Amen·bar
 4395|les_mayfield|Les Mayfield
 4396|julie_davis|Julie Davis
 4397|scott_mcgehee|Scott McGehee
@@ -4412,7 +4412,7 @@
 4412|griffin_dunne|Griffin Dunne
 4413|ben_elton|Ben Elton
 4414|lukas_moodysson|Lukas Moodysson
-4415|maria_ripoll|Mar√åa Ripoll
+4415|maria_ripoll|MarÌa Ripoll
 4416|victor_salva|Victor Salva
 4417|tim_blake_nelson|Tim Blake Nelson
 4418|jordan_brady|Jordan Brady
@@ -4481,7 +4481,7 @@
 4481|1060941-anthony_page|Anthony Page
 4482|franc_roddam|Franc Roddam
 4483|harry_winer|Harry Winer
-4484|_0005789|Rudolph Mat√à
+4484|_0005789|Rudolph MatÈ
 4485|gary_fleder|Gary Fleder
 4486|scott_hicks|Scott Hicks
 4487|ben_stiller|Ben Stiller
@@ -4508,7 +4508,7 @@
 4508|william_friedkin|William Friedkin
 4509|corey_yuen|Corey Yuen
 4510|alvin_rakoff|Alvin Rakoff
-4511|francois_truffaut|Fran√Åois Truffaut
+4511|francois_truffaut|FranÁois Truffaut
 4512|michael_ritchie|Michael Ritchie
 4513|john_irvin|John Irvin
 4514|eric_schwab|Eric Schwab
@@ -4537,10 +4537,10 @@
 4537|rod_lurie|Rod Lurie
 4538|penny_marshall|Penny Marshall
 4539|oxide_pang_chun|Oxide Pang Chun
-4540|marcelo_pineyro|Marcelo Pi√íeyro
+4540|marcelo_pineyro|Marcelo PiÒeyro
 4541|michael_radford|Michael Radford
 4542|paul_schrader|Paul Schrader
-4543|patrice_chereau|Patrice Ch√àreau
+4543|patrice_chereau|Patrice ChÈreau
 4544|richard_linklater|Richard Linklater
 4545|iain_softley|Iain Softley
 4546|eric_bross|Eric Bross
@@ -4590,7 +4590,7 @@
 4590|robert_moore|Robert Moore
 4591|dominique_deruddere|Dominique Deruddere
 4592|peter_weir|Peter Weir
-4593|luis_bunuel|Luis Bu√íuel
+4593|luis_bunuel|Luis BuÒuel
 4594|john_lasseter|John Lasseter
 4595|guy_hamilton|Guy Hamilton
 4596|joseph_ellison|Joseph Ellison
@@ -4629,7 +4629,7 @@
 4629|jack_arnold|Jack Arnold
 4630|danis_tanovic|Danis Tanovic
 4631|leon_ichaso|Leon Ichaso
-4632|rene_clair|Ren√à Clair
+4632|rene_clair|RenÈ Clair
 4633|josef_von_sternberg|Josef von Sternberg
 4634|paul_mazursky|Paul Mazursky
 4635|herbert_ross|Herbert Ross
@@ -4676,14 +4676,14 @@
 4676|robert_altman|Robert Altman
 4677|jessie_nelson|Jessie Nelson
 4678|marc_forster|Marc Forster
-4679|162659443|Lasse HallstrÀÜm
+4679|162659443|Lasse Hallstrˆm
 4680|fritz_lang|Fritz Lang
 4681|barry_shils|Barry Shils
 4682|barry_sullivan|Barry Sullivan
 4683|russell_mulcahy|Russell Mulcahy
 4684|robert_moore|Robert Moore
 4685|joseph_losey|Joseph Losey
-4686|elizabeth_pena|Elizabeth Pe√ía
+4686|elizabeth_pena|Elizabeth PeÒa
 4687|silvio_soldini|Silvio Soldini
 4688|jake_kasdan|Jake Kasdan
 4689|christophe_gans|Christophe Gans
@@ -4710,7 +4710,7 @@
 4710|steve_oedekerk|Steve Oedekerk
 4711|brian_levant|Brian Levant
 4712|walter_hill|Walter Hill
-4713|jan-schutte|Jan Sch¬∏tte
+4713|jan-schutte|Jan Sch¸tte
 4714|lone_scherfig|Lone Scherfig
 4715|joseph_cedar|Joseph Cedar
 4716|mike_binder|Mike Binder
@@ -4759,7 +4759,7 @@
 4759|stuart_marshall|Stuart Marshall
 4760|1028179-william_a_seiter|William A. Seiter
 4761|delbert_mann|Delbert Mann
-4762|francois_truffaut|Fran√Åois Truffaut
+4762|francois_truffaut|FranÁois Truffaut
 4763|richard_pryor|Richard Pryor
 4764|daniel_stern|Daniel Stern
 4765|david_m_evans|David M. Evans
@@ -4833,7 +4833,7 @@
 4833|david_caffrey|David Caffrey
 4834|jim_sheridan|Jim Sheridan
 4835|ken_loach|Ken Loach
-4836|jose-luis-valenzuela|Jos√à Luis Valenzuela
+4836|jose-luis-valenzuela|JosÈ Luis Valenzuela
 4837|orson_welles|Orson Welles
 4838|ken_kwapis|Ken Kwapis
 4839|sidney_lumet|Sidney Lumet
@@ -4880,7 +4880,7 @@
 4880|elie_chouraqui|Elie Chouraqui
 4881|charles_hermanwurmfeld|Charles Herman-Wurmfeld
 4882|lieven_debrauwer|Lieven Debrauwer
-4883|alfonso_cuaron|Alfonso Cuar√õn
+4883|alfonso_cuaron|Alfonso CuarÛn
 4884|michael_chapman|Michael Chapman
 4885|richard_fleischer|Richard Fleischer
 4886|1042400-george_marshall|George Marshall
@@ -4906,14 +4906,14 @@
 4906|_0523310|Dick Lowry
 4907|paul_verhoeven|Paul Verhoeven
 4908|sidney_poitier|Sidney Poitier
-4909|lasse_aberg|Lasse ‚âàberg
+4909|lasse_aberg|Lasse ≈berg
 4910|joel_shumacher|Joel Shumacher
 4911|guillermo_del_toro|Guillermo del Toro
 4912|wallace_wolodarsky|Wallace Wolodarsky
 4913|_0971919|Pete Jones
 4914|david_gordon_green|David Gordon Green
 4915|jean_de_segonzac|Jean de Segonzac
-4916|fernando_perez|Fernando P√àrez
+4916|fernando_perez|Fernando PÈrez
 4917|william_castle|William Castle
 4918|william_castle|William Castle
 4919|jonathan_frakes|Jonathan Frakes
@@ -4936,7 +4936,7 @@
 4936|walt_becker|Walt Becker
 4937|1143611-john_mckay|John McKay
 4938|peter_cattaneo|Peter Cattaneo
-4939|bruno_pesery|Bruno P√àsery
+4939|bruno_pesery|Bruno PÈsery
 4940|james_foley|James Foley
 4941|jayne-loader|Jayne Loader
 4942|robert_rosen|Robert Rosen
@@ -4969,7 +4969,7 @@
 4969|michael_apted|Michael Apted
 4970|annesophie_birot|Anne-Sophie Birot
 4971|george_ratliff|George Ratliff
-4972|fabian_bielinsky|Fabi¬∑n Bielinsky
+4972|fabian_bielinsky|Fabi·n Bielinsky
 4973|clare_peploe|Clare Peploe
 4974|bart_freundlich|Bart Freundlich
 4975|james_isaac|James Isaac
@@ -5051,11 +5051,11 @@
 5051|phil_alden_robinson|Phil Alden Robinson
 5052|gregory-dark|Gregory Dark
 5053|1143213-paul_cox|Paul Cox
-5054|christopher_muench|Christopher M¬∏nch
+5054|christopher_muench|Christopher M¸nch
 5055|david-hugh-jones|David Hugh Jones
 5056|joseph_kane|Joseph Kane
 5057|robert_wise|Robert Wise
-5058|daniele_thompson|Dani√ãle Thompson
+5058|daniele_thompson|DaniËle Thompson
 5059|akira_kurosawa|Akira Kurosawa
 5060|dwight_h_little|Dwight H. Little
 5061|douglas_trumbull|Douglas Trumbull
@@ -5073,7 +5073,7 @@
 5073|alan_taylor|Alan Taylor
 5074|paul_mcguigan|Paul McGuigan
 5075|james_toback|James Toback
-5076|jan_sverak|Jan Sver¬∑k
+5076|jan_sverak|Jan Sver·k
 5077|joel_schumacher|Joel Schumacher
 5078|carl_gottlieb|Carl Gottlieb
 5079|tommy_chong|Tommy Chong
@@ -5150,7 +5150,7 @@
 5150|m_night_shyamalan|M. Night Shyamalan
 5151|gabriele_muccino|Gabriele Muccino
 5152|robert_rodriguez|Robert Rodriguez
-5153|busi_cortes|Busi Cort√às
+5153|busi_cortes|Busi CortÈs
 5154|clint_eastwood|Clint Eastwood
 5155|rob_cohen|Rob Cohen
 5156|michael_winterbottom|Michael Winterbottom
@@ -5204,7 +5204,7 @@
 5204|melanie_mayron|Melanie Mayron
 5205|kantz|Kantz
 5206|vicente_aranda|Vicente Aranda
-5207|rene_clair|Ren√à Clair
+5207|rene_clair|RenÈ Clair
 5208|herbert_ross|Herbert Ross
 5209|stephen_norrington|Stephen Norrington
 5210|michael_catonjones|Michael Caton-Jones
@@ -5212,7 +5212,7 @@
 5212|anya_camilleri|Anya Camilleri
 5213|amy_heckerling|Amy Heckerling
 5214|dennis-iliadis|Dennis Iliadis
-5215|alejandro_amenabar|Alejandro Amen¬∑bar
+5215|alejandro_amenabar|Alejandro Amen·bar
 5216|kevin_rodney_sullivan|Kevin Rodney Sullivan
 5217|bruce_mcculloch|Bruce McCulloch
 5218|corey_yuen|Corey Yuen
@@ -5245,13 +5245,13 @@
 5245|alexander_mackendrick|Alexander Mackendrick
 5246|lynne_ramsay|Lynne Ramsay
 5247|brian_yuzna|Brian Yuzna
-5248|juan_jose_campanella|Juan Jos√à Campanella
+5248|juan_jose_campanella|Juan JosÈ Campanella
 5249|oliver_hirschbiegel|Oliver Hirschbiegel
 5250|wych_kaosayananda|Wych Kaosayananda
 5251|bob_dolman|Bob Dolman
 5252|shekhar_kapur|Shekhar Kapur
 5253|luis_mandoki|Luis Mandoki
-5254|francois_ozon|Fran√Åois Ozon
+5254|francois_ozon|FranÁois Ozon
 5255|ferzan_ozpetek|Ferzan Ozpetek
 5256|ericson-core|Ericson Core
 5257|gil-cates-jr|Gil Cates Jr.
@@ -5266,7 +5266,7 @@
 5266|brad_silberling|Brad Silberling
 5267|amir_mann|Amir Mann
 5268|chris_eyre|Chris Eyre
-5269|gerard_krawczyk|G√àrard Krawczyk
+5269|gerard_krawczyk|GÈrard Krawczyk
 5270|phil_vischer|Phil Vischer
 5271|brett_ratner|Brett Ratner
 5272|edoardo_ponti|Edoardo Ponti
@@ -5276,9 +5276,9 @@
 5276|george_hickenlooper|George Hickenlooper
 5277|anthony_russo|Anthony Russo
 5278|david_o_russell|David O. Russell
-5279|inoshiro-honda|Ishir√ô Honda
+5279|inoshiro-honda|IshirÙ Honda
 5280|kevin_reynolds|Kevin Reynolds
-5281|inoshiro-honda|Ishir√ô Honda
+5281|inoshiro-honda|IshirÙ Honda
 5282|charlie_s_chaplin|Charlie S. Chaplin
 5283|harold_becker|Harold Becker
 5284|godfrey_reggio|Godfrey Reggio
@@ -5376,7 +5376,7 @@
 5376|john_alan_schwartz|John Alan Schwartz
 5377|john_alan_schwartz|John Alan Schwartz
 5378|john_alan_schwartz|John Alan Schwartz
-5379|francois_truffaut|Fran√Åois Truffaut
+5379|francois_truffaut|FranÁois Truffaut
 5380|ronald_neame|Ronald Neame
 5381|daniel_petrie|Daniel Petrie
 5382|arthur_penn|Arthur Penn
@@ -5399,7 +5399,7 @@
 5399|rainer_werner_fassbinder|Rainer Werner Fassbinder
 5400|michael_crichton|Michael Crichton
 5401|friz_freleng|Friz Freleng
-5402|tibor_takacs|Tibor Tak¬∑cs
+5402|tibor_takacs|Tibor Tak·cs
 5403|stanislaw_bareja|Stanislaw Bareja
 5404|ken-shapiro|Ken Shapiro
 5405|albert_brooks|Albert Brooks
@@ -5561,14 +5561,14 @@
 5561|robert_allman|Robert Allman
 5562|andrzej_wajda|Andrzej Wajda
 5563|sidney_lumet|Sidney Lumet
-5564|cetin_inanc|¬´etin Inan√Å
+5564|cetin_inanc|«etin InanÁ
 5565|paul_bartel|Paul Bartel
 5566|charles_stone_iii|Charles Stone
 5567|1140240-tom_brady|Tom Brady
 5568|wayne_wang|Wayne Wang
 5569|stuart_baird|Stuart Baird
 5570|alexander_payne|Alexander Payne
-5571|achero_manas_ii|Achero Ma√ías
+5571|achero_manas_ii|Achero MaÒas
 5572|bruce_beresford|Bruce Beresford
 5573|juan_carlos_fresnadillo|Juan Carlos Fresnadillo
 5574|frank_whaley|Frank Whaley
@@ -5661,7 +5661,7 @@
 5661|jonathan_liebesman|Jonathan Liebesman
 5662|costagavras|Costa-Gavras
 5663|othmar_schmiderer|Othmar Schmiderer
-5664|martina_kudlacek|Martina Kudl¬∑cek
+5664|martina_kudlacek|Martina Kudl·cek
 5665|blake_edwards|Blake Edwards
 5666|kantz|Kantz
 5667|john_cromwell|John Cromwell
@@ -5705,7 +5705,7 @@
 5705|jerry_belson|Jerry Belson
 5706|mikael_ekman|Mikael Ekman
 5707|robert_mulligan|Robert Mulligan
-5708|pedro_almodovar|Pedro Almod√õvar
+5708|pedro_almodovar|Pedro AlmodÛvar
 5709|boaz_davidson|Boaz Davidson
 5710|jules_bass|Jules Bass
 5711|slava_tsukerman|Slava Tsukerman
@@ -5715,7 +5715,7 @@
 5715|hal_needham|Hal Needham
 5716|woody_allen|Woody Allen
 5717|ron_howard|Ron Howard
-5718|roland_joffe|Roland Joff√à
+5718|roland_joffe|Roland JoffÈ
 5719|frank_perry|Frank Perry
 5720|terry_hughes|Terry Hughes
 5721|charlton_heston|Charlton Heston
@@ -5731,7 +5731,7 @@
 5731|gore_verbinski|Gore Verbinski
 5732|michael_blakemore|Michael Blakemore
 5733|krzysztof_kieslowski|Krzysztof Kieslowski
-5734|jean_marie_poire|Jean-Marie Poir√à
+5734|jean_marie_poire|Jean-Marie PoirÈ
 5735|1041041-larry_cohen|Larry Cohen
 5736|rainer_werner_fassbinder|Rainer Werner Fassbinder
 5737|joe_layton|Joe Layton
@@ -5740,7 +5740,7 @@
 5740|julien_temple|Julien Temple
 5741|rainer_werner_fassbinder|Rainer Werner Fassbinder
 5742|1042742-alan_parker|Alan Parker
-5743|_0073322|Alain Berb√àrian
+5743|_0073322|Alain BerbÈrian
 5744|tony_bill|Tony Bill
 5745|paul_anderson|Paul W.S. Anderson
 5746|michael_pressman|Michael Pressman
@@ -5762,7 +5762,7 @@
 5762|samuel_fuller|Samuel Fuller
 5763|ian_sharp|Ian Sharp
 5764|richard_brooks_i|Richard Brooks I
-5765|serif-goren|Serif GÀÜren
+5765|serif-goren|Serif Gˆren
 5766|antonio_margheriti|Antonio Margheriti
 5767|robert_j_rosenthal|Robert J. Rosenthal
 5768|gary_hardwick|Gary Hardwick
@@ -5821,7 +5821,7 @@
 5821|kevin_lima|Kevin Lima
 5822|adam_shankman|Adam Shankman
 5823|antoine_fuqua|Antoine Fuqua
-5824|_0637615|Gaspar No√à
+5824|_0637615|Gaspar NoÈ
 5825|lisa_cholodenko|Lisa Cholodenko
 5826|caroline_link|Caroline Link
 5827|rose_troche|Rose Troche
@@ -5830,10 +5830,10 @@
 5830|glen_morgan|Glen Morgan
 5831|susan_seidelman|Susan Seidelman
 5832|erik_skjoldbjaerg|Erik Skjoldbjaerg
-5833|jonas-akerlund|Jonas ‚âàkerlund
+5833|jonas-akerlund|Jonas ≈kerlund
 5834|rakhshan_bani_etemad|Rakhshan Bani Etemad
 5835|nicholas_ray|Nicholas Ray
-5836|volker_schloendorff|Volker SchlÀÜndorff
+5836|volker_schloendorff|Volker Schlˆndorff
 5837|george_stevens|George Stevens
 5838|monte_hellman|Monte Hellman
 5839|john_d_hancock|John D. Hancock
@@ -5854,7 +5854,7 @@
 5854|bob_fosse|Bob Fosse
 5855|robert_m_young|Robert M. Young
 5856|karen_everett|Karen Everett
-5857|carlos_reygadas_barquin|Carlos Reygadas Barqu√ån
+5857|carlos_reygadas_barquin|Carlos Reygadas BarquÌn
 5858|mort_nathan|Mort Nathan
 5859|_0705655|Ed Radtke
 5860|francis-glebas|Francis Glebas
@@ -5862,7 +5862,7 @@
 5862|leo_mccarey|Leo McCarey
 5863|daniel_g_karslake|Daniel G. Karslake
 5864|pupi_avati|Pupi Avati
-5865|vilgot_sjoman|Vilgot SjÀÜman
+5865|vilgot_sjoman|Vilgot Sjˆman
 5866|robert_bresson|Robert Bresson
 5867|michael_mayer_vi|Michael Mayer (VI)
 5868|bruce_beresford|Bruce Beresford
@@ -5876,7 +5876,7 @@
 5876|peter_sollett|Peter Sollett
 5877|david_teboul|David Teboul
 5878|akira_kurosawa|Akira Kurosawa
-5879|francois_truffaut|Fran√Åois Truffaut
+5879|francois_truffaut|FranÁois Truffaut
 5880|tim_blake_nelson|Tim Blake Nelson
 5881|nicholas_ray|Nicholas Ray
 5882|michael_crichton|Michael Crichton
@@ -5887,11 +5887,11 @@
 5887|neil_jordan|Neil Jordan
 5888|f_gary_gray|F. Gary Gray
 5889|joel_schumacher|Joel Schumacher
-5890|josee_dayan|Jos√àe Dayan
-5891|shinichiro_watanabe|Shinichir√ô Watanabe
+5890|josee_dayan|JosÈe Dayan
+5891|shinichiro_watanabe|ShinichirÙ Watanabe
 5892|george_gallo|George Gallo
 5893|ed_solomon|Ed Solomon
-5894|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
+5894|aki_kaurismaeki|Aki Kaurism‰ki
 5895|peter_segal|Peter Segal
 5896|justin_lin|Justin Lin
 5897|james_cameron|James Cameron
@@ -5910,7 +5910,7 @@
 5910|bert_i_gordon|Bert I. Gordon
 5911|mikael_salomon|Mikael Salomon
 5912|john-flynn|John Flynn
-5913|francois_truffaut|Fran√Åois Truffaut
+5913|francois_truffaut|FranÁois Truffaut
 5914|sam_jones|Sam Jones
 5915|john_frankenheimer|John Frankenheimer
 5916|ivan_reitman|Ivan Reitman
@@ -5924,7 +5924,7 @@
 5924|sidney_lumet|Sidney Lumet
 5925|philippe_de_broca|Philippe de Broca
 5926|jerry-rees|Jerry Rees
-5927|gerard_lauzier|G√àrard Lauzier
+5927|gerard_lauzier|GÈrard Lauzier
 5928|paul_mazursky|Paul Mazursky
 5929|kevin_rodney_sullivan|Kevin Rodney Sullivan
 5930|james_foley|James Foley
@@ -5949,7 +5949,7 @@
 5949|neil_labute|Neil LaBute
 5950|1045105-todd_phillips|Todd Phillips
 5951|alfredo_de_villa|Alfredo De Villa
-5952|baltasar_kormakur|Baltasar Korm¬∑kur
+5952|baltasar_kormakur|Baltasar Korm·kur
 5953|richard_attenborough|Richard Attenborough
 5954|julien_temple|Julien Temple
 5955|stan_lathan|Stan Lathan
@@ -5969,7 +5969,7 @@
 5969|tamas-sas|Tamas Sas
 5970|angela_christlieb|Angela Christlieb
 5971|kristen_coury|Kristen Coury
-5972|cedric_klapisch|C√àdric Klapisch
+5972|cedric_klapisch|CÈdric Klapisch
 5973|jim_malone|Jim Malone
 5974|tom_shadyac|Tom Shadyac
 5975|andrew_fleming|Andrew Fleming
@@ -5992,7 +5992,7 @@
 5992|george_sherman|George Sherman
 5993|clyde_bruckman|Clyde Bruckman
 5994|francis_ford_coppola|Francis Ford Coppola
-5995|marcel_carne|Marcel Carn√à
+5995|marcel_carne|Marcel CarnÈ
 5996|lee_h_katzin|Lee H. Katzin
 5997|jean_xavier_de_lestrade|Jean-Xavier de Lestrade
 5998|howard_hawks|Howard Hawks
@@ -6079,7 +6079,7 @@
 6079|john-eng|John Eng
 6080|1162568-scott_roberts|Scott Roberts
 6081|thaddeus_osullivan|Thaddeus O'Sullivan
-6082|daniele_thompson|Dani√ãle Thompson
+6082|daniele_thompson|DaniËle Thompson
 6083|bryan_lewis|Bryan Lewis
 6084|eric_eason|Eric Eason
 6085|phillip_rhee|Phillip Rhee
@@ -6088,7 +6088,7 @@
 6088|jed_weintrob|Jed Weintrob
 6089|blake_edwards|Blake Edwards
 6090|mariano_barroso|Mariano Barroso
-6091|rene_clement|Ren√à Cl√àment
+6091|rene_clement|RenÈ ClÈment
 6092|peter_yates|Peter Yates
 6093|dw_griffith|D.W. Griffith
 6094|alan_gibson|Alan Gibson
@@ -6128,7 +6128,7 @@
 6128|charles_hermanwurmfeld|Charles Herman-Wurmfeld
 6129|patrick_gilmore_iii|Patrick Gilmore (III)
 6130|jonathan_mostow|Jonathan Mostow
-6131|francois_ozon|Fran√Åois Ozon
+6131|francois_ozon|FranÁois Ozon
 6132|gore_verbinski|Gore Verbinski
 6133|karim_ainouz|Karim Ainouz
 6134|stephen_norrington|Stephen Norrington
@@ -6161,7 +6161,7 @@
 6161|todd_graff|Todd Graff
 6162|mike_figgis|Mike Figgis
 6163|antonio-serrano|Antonio Serrano
-6164|fernando_leon_de_aranoa|Fernando Le√õn de Aranoa
+6164|fernando_leon_de_aranoa|Fernando LeÛn de Aranoa
 6165|gavin-grazer|Gavin Grazer
 6166|billy_wilder|Billy Wilder
 6167|duncan-gibbins|Duncan Gibbins
@@ -6219,7 +6219,7 @@
 6219|mark_robson|Mark Robson
 6220|john_lafia|John Lafia
 6221|gabriel_axel|Gabriel Axel
-6222|gonzalo_suarez|Gonzalo Su¬∑rez
+6222|gonzalo_suarez|Gonzalo Su·rez
 6223|damian_harris|Damian Harris
 6224|rob_reiner|Rob Reiner
 6225|david_winters|David Winters
@@ -6238,10 +6238,10 @@
 6238|edward_burns|Edward Burns
 6239|john_sturges|John Sturges
 6240|michael_mann|Michael Mann
-6241|inoshiro-honda|Ishir√ô Honda
-6242|inoshiro-honda|Ishir√ô Honda
+6241|inoshiro-honda|IshirÙ Honda
+6242|inoshiro-honda|IshirÙ Honda
 6243|bert_i_gordon|Bert I. Gordon
-6244|eugene_lourie|Eug√ãne Louri√à
+6244|eugene_lourie|EugËne LouriÈ
 6245|kevin_lima|Kevin Lima
 6246|ron_underwood|Ron Underwood
 6247|michael_powell|Michael Powell
@@ -6250,7 +6250,7 @@
 6250|blake_edwards|Blake Edwards
 6251|mark_l_lester|Mark L. Lester
 6252|tod_browning|Tod Browning
-6253|luis_bunuel|Luis Bu√íuel
+6253|luis_bunuel|Luis BuÒuel
 6254|william_gazecki|William Gazecki
 6255|zhang_yimou|Yimou Zhang
 6256|akira_kurosawa|Akira Kurosawa
@@ -6261,7 +6261,7 @@
 6261|anand_patwardhan|Anand Patwardhan
 6262|andre_techine|Andre Techine
 6263|michael_apted|Michael Apted
-6264|volker_schloendorff|Volker SchlÀÜndorff
+6264|volker_schloendorff|Volker Schlˆndorff
 6265|jts_moore|J.T.S. Moore
 6266|julia_query|Julia Query
 6267|1050543-jeremy_thomas|Jeremy Thomas
@@ -6271,9 +6271,9 @@
 6271|richard_benjamin|Richard Benjamin
 6272|gordon_chan|Gordon Chan
 6273|david_zucker|David Zucker
-6274|vladimir_michalek|Vladim√år Mich¬∑lek
+6274|vladimir_michalek|VladimÌr Mich·lek
 6275|efram_potelle|Efram Potelle
-6276|agustin_diaz_yanes|Agust√ån D√åaz Yanes
+6276|agustin_diaz_yanes|AgustÌn DÌaz Yanes
 6277|robert_towne|Robert Towne
 6278|helen_stickler|Helen Stickler
 6279|gabriel_baur|Gabriel Baur
@@ -6283,7 +6283,7 @@
 6283|neema_barnette|Neema Barnette
 6284|alan_hruska|Alan Hruska
 6285|shane_meadows|Shane Meadows
-6286|emilio_martinez_lazaro|Emilio Mart√ånez L¬∑zaro
+6286|emilio_martinez_lazaro|Emilio MartÌnez L·zaro
 6287|bryan-gunnar-cole|Bryan Gunnar Cole
 6288|sam_weisman|Sam Weisman
 6289|ted_kotcheff|Ted Kotcheff
@@ -6300,7 +6300,7 @@
 6300|corey_yuen|Corey Yuen
 6301|tony_randel|Tony Randel
 6302|peter_bogdanovich|Peter Bogdanovich
-6303|doris_doerrie|Doris DÀÜrrie
+6303|doris_doerrie|Doris Dˆrrie
 6304|jeff_kanew|Jeff Kanew
 6305|larry_peerce|Larry Peerce
 6306|bruce_a_evans|Bruce A. Evans
@@ -6325,7 +6325,7 @@
 6325|hal_walker|Hal Walker
 6326|matthew_robbins|Matthew Robbins
 6327|1041041-larry_cohen|Larry Cohen
-6328|tibor_takacs|Tibor Tak¬∑cs
+6328|tibor_takacs|Tibor Tak·cs
 6329|wolfgang_reitherman|Wolfgang Reitherman
 6330|howard_storm|Howard Storm
 6331|michael_gottlieb|Michael Gottlieb
@@ -6349,7 +6349,7 @@
 6349|1055381-audrey_wells|Audrey Wells
 6350|hamlet_sarkissian|Hamlet Sarkissian
 6351|eric_till|Eric Till
-6352|emile_gaudreault|‚Ä¶mile Gaudreault
+6352|emile_gaudreault|…mile Gaudreault
 6353|koji_kawano|Koji Kawano
 6354|david_hillenbrand|David Hillenbrand
 6355|nicolas_philibert|Nicolas Philibert
@@ -6361,7 +6361,7 @@
 6361|robert_mulligan|Robert Mulligan
 6362|errol_morris|Errol Morris
 6363|frank_beyer|Frank Beyer
-6364|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
+6364|aki_kaurismaeki|Aki Kaurism‰ki
 6365|jean_renoir|Jean Renoir
 6366|peter-clifton|Peter Clifton
 6367|stanley_donen|Stanley Donen
@@ -6524,7 +6524,7 @@
 6524|ron_howard|Ron Howard
 6525|bo_welch|Bo Welch
 6526|mathieu_kassovitz|Mathieu Kassovitz
-6527|alejandro_gonzalez_inniaritu|Alejandro Gonz¬∑lez I√í¬∑rritu
+6527|alejandro_gonzalez_inniaritu|Alejandro Gonz·lez IÒ·rritu
 6528|denys_arcand|Denys Arcand
 6529|fernando_meirelles|Fernando Meirelles
 6530|chinyen_yee|Chin-yen Yee
@@ -6553,7 +6553,7 @@
 6553|john_badham|John Badham
 6554|henry_koster|Henry Koster
 6555|kaj_munk|Kaj Munk
-6556|rene_clement|Ren√à Cl√àment
+6556|rene_clement|RenÈ ClÈment
 6557|_1264352|Susanna White
 6558|ralph_thomas|Ralph Thomas
 6559|carl_theodor_dreyer|Carl Theodor Dreyer
@@ -6606,8 +6606,8 @@
 6606|lukas_moodysson|Lukas Moodysson
 6607|walter_hill|Walter Hill
 6608|rod_daniel|Rod Daniel
-6609|pedro_almodovar|Pedro Almod√õvar
-6610|1066196-rodrigo_garcia|Rodrigo Garc√åa
+6609|pedro_almodovar|Pedro AlmodÛvar
+6610|1066196-rodrigo_garcia|Rodrigo GarcÌa
 6611|michael_apted|Michael Apted
 6612|william_friedkin|William Friedkin
 6613|george_gallo|George Gallo
@@ -6681,7 +6681,7 @@
 6681|_0411030|Teruo Ishii
 6682|david_lean|David Lean
 6683|paul_haggis|Paul Haggis
-6684|nicolas_echevarria|Nicol¬∑s Echevarr√åa
+6684|nicolas_echevarria|Nicol·s EchevarrÌa
 6685|phillip_noyce|Phillip Noyce
 6686|dario_argento|Dario Argento
 6687|henrigeorges_clouzot|Henri-Georges Clouzot
@@ -6703,8 +6703,8 @@
 6703|sam_wood|Sam Wood
 6704|charles_band|Charles Band
 6705|lars_von_trier|Lars von Trier
-6706|francois_truffaut|Fran√Åois Truffaut
-6707|francois_truffaut|Fran√Åois Truffaut
+6706|francois_truffaut|FranÁois Truffaut
+6707|francois_truffaut|FranÁois Truffaut
 6708|1150240-wayne_kramer|Wayne Kramer
 6709|pablo_trapero|Pablo Trapero
 6710|jim_sheridan|Jim Sheridan
@@ -6795,7 +6795,7 @@
 6795|bob_rafelson|Bob Rafelson
 6796|ida_lupino|Ida Lupino
 6797|ralph_bakshi|Ralph Bakshi
-6798|ramon_menendez|Ram√õn Men√àndez
+6798|ramon_menendez|RamÛn MenÈndez
 6799|phil_karlson|Phil Karlson
 6800|james_neilson|James Neilson
 6801|james_ivory|James Ivory
@@ -6810,7 +6810,7 @@
 6810|abel_ferrara|Abel Ferrara
 6811|dw_griffith|D.W. Griffith
 6812|coleman_francis|Coleman Francis
-6813|alf-sjoberg|Alf SjÀÜberg
+6813|alf-sjoberg|Alf Sjˆberg
 6814|ken_hughes|Ken Hughes
 6815|chatrichalerm_yukoi|Chatrichalerm Yukoi
 6816|arthur_hiller|Arthur Hiller
@@ -6860,7 +6860,7 @@
 6860|lucas_belvaux|Lucas Belvaux
 6861|bent_hamer|Bent Hamer
 6862|manuel_boursinhac|Manuel Boursinhac
-6863|francois_dupeyron|Fran√Åois Dupeyron
+6863|francois_dupeyron|FranÁois Dupeyron
 6864|richard_c_sarafian|Richard C. Sarafian
 6865|robert_bresson|Robert Bresson
 6866|raoul_walsh|Raoul Walsh
@@ -6893,7 +6893,7 @@
 6893|edward_dmytryk|Edward Dmytryk
 6894|stuart_heisler|Stuart Heisler
 6895|ingmar_bergman|Ingmar Bergman
-6896|felix_enriquez_alcala|F√àlix Enr√åquez Alcal¬∑
+6896|felix_enriquez_alcala|FÈlix EnrÌquez Alcal·
 6897|henrigeorges_clouzot|Henri-Georges Clouzot
 6898|lewis_milestone|Lewis Milestone
 6899|samuel_fuller|Samuel Fuller
@@ -6924,7 +6924,7 @@
 6924|michel_gondry|Michel Gondry
 6925|dj_caruso|D.J. Caruso
 6926|john_crowley|John Crowley
-6927|dagur_kari|Dagur K¬∑ri
+6927|dagur_kari|Dagur K·ri
 6928|1030366-kevin_smith|Kevin Smith
 6929|joel_coen|Joel Coen
 6930|ernest_r_dickerson|Ernest R. Dickerson
@@ -7024,7 +7024,7 @@
 7024|sidney_lumet|Sidney Lumet
 7025|bernard_rose|Bernard Rose
 7026|jean_kounen|Jean Kounen
-7027|jeroen_krabbe|Jeroen Krabb√à
+7027|jeroen_krabbe|Jeroen KrabbÈ
 7028|masaki_kobayashi|Masaki Kobayashi
 7029|arthur_hilton|Arthur Hilton
 7030|michael_apted|Michael Apted
@@ -7110,7 +7110,7 @@
 7110|don_chaffey|Don Chaffey
 7111|alain_resnais|Alain Resnais
 7112|_0576913|Michael Meinhardt
-7113|francois_truffaut|Fran√Åois Truffaut
+7113|francois_truffaut|FranÁois Truffaut
 7114|john_irvin|John Irvin
 7115|tom_tykwer|Tom Tykwer
 7116|abel_ferrara|Abel Ferrara
@@ -7140,7 +7140,7 @@
 7140|_0754328|Olli Saarela
 7141|ken_klein|Ken Klein
 7142|janet_greek|Janet Greek
-7143|jesus_salvador_trevino|JesÀôs Salvador Trevi√ío
+7143|jesus_salvador_trevino|Jes˙s Salvador TreviÒo
 7144|john_a_alonzo|John A. Alonzo
 7145|sergei_bondarchuk|Sergei Bondarchuk
 7146|john_gatins|John Gatins
@@ -7295,7 +7295,7 @@
 7295|aaron_norris|Aaron Norris
 7296|tamra_davis|Tamra Davis
 7297|george_gallo|George Gallo
-7298|jean_francois_pouliot|Jean-Fran√Åois Pouliot
+7298|jean_francois_pouliot|Jean-FranÁois Pouliot
 7299|gigi_gaston|Gigi Gaston
 7300|stephen_frears|Stephen Frears
 7301|david_wagreich|David Wagreich
@@ -7315,7 +7315,7 @@
 7315|jeff_gillen|Jeff Gillen
 7316|charles_frend|Charles Frend
 7317|robert_diaz_leroy|Robert Diaz Leroy
-7318|max-ophuls|Max Oph¬∏ls
+7318|max-ophuls|Max Oph¸ls
 7319|tim_burton|Tim Burton
 7320|john_korty|John Korty
 7321|george_pal|George Pal
@@ -7354,7 +7354,7 @@
 7354|fred_c_newmeyer|Fred C. Newmeyer
 7355|fritz_lang|Fritz Lang
 7356|alan_arkin|Alan Arkin
-7357|luis_bunuel|Luis Bu√íuel
+7357|luis_bunuel|Luis BuÒuel
 7358|gregg_araki|Gregg Araki
 7359|tom_mcgrath|Tom McGrath
 7360|francis_ford_coppola|Francis Ford Coppola
@@ -7404,7 +7404,7 @@
 7404|roger_michell|Roger Michell
 7405|brian_dannelly|Brian Dannelly
 7406|michael_haneke|Michael Haneke
-7407|_0190859|Alfonso Cuar√õn
+7407|_0190859|Alfonso CuarÛn
 7408|renny_harlin|Renny Harlin
 7409|takeshi_kitano|Takeshi Kitano
 7410|david_twohy|David Twohy
@@ -7413,7 +7413,7 @@
 7413|kiyoshi_kurosawa|Kiyoshi Kurosawa
 7414|1061981-bill_clinton|Bill Clinton
 7415|jared_hess|Jared Hess
-7416|roland_joffe|Roland Joff√à
+7416|roland_joffe|Roland JoffÈ
 7417|geoffrey_sax|Geoffrey Sax
 7418|peter_yates|Peter Yates
 7419|darrell_roodt|Darrell Roodt
@@ -7439,7 +7439,7 @@
 7439|ingmar_bergman|Ingmar Bergman
 7440|martin_ritt|Martin Ritt
 7441|lewis_allen|Lewis Allen
-7442|genevieve_jolliffe|Genevi√ãve Jolliffe
+7442|genevieve_jolliffe|GeneviËve Jolliffe
 7443|alex_de_la_iglesia|Alex de la Iglesia
 7444|sam_wood|Sam Wood
 7445|ja_howe|J.A. Howe
@@ -7550,7 +7550,7 @@
 7550|milcho_manchevski|Milcho Manchevski
 7551|heiner_carow|Heiner Carow
 7552|tim_story|Tim Story
-7553|gerard_krawczyk|G√àrard Krawczyk
+7553|gerard_krawczyk|GÈrard Krawczyk
 7554|robert_frank|Robert Frank
 7555|satoshi_kon|Satoshi Kon
 7556|claude_chabrol|Claude Chabrol
@@ -7565,7 +7565,7 @@
 7565|daniel_mann|Daniel Mann
 7566|nicholas_ray|Nicholas Ray
 7567|nancy_meckler|Nancy Meckler
-7568|luis_bunuel|Luis Bu√íuel
+7568|luis_bunuel|Luis BuÒuel
 7569|bernard_rose|Bernard Rose
 7570|1055159-michael_moore|Michael Moore
 7571|fred_schepisi|Fred Schepisi
@@ -7622,7 +7622,7 @@
 7622|ford_beebe|Ford Beebe
 7623|paul_wendkos|Paul Wendkos
 7624|michael_cimino|Michael Cimino
-7625|agustin_villaronga|Agust√å Villaronga
+7625|agustin_villaronga|AgustÌ Villaronga
 7626|robert_bresson|Robert Bresson
 7627|james_clavell|James Clavell
 7628|george_mccowan|George McCowan
@@ -7638,13 +7638,13 @@
 7638|1028179-william_a_seiter|William A. Seiter
 7639|irving_reis|Irving Reis
 7640|clint_eastwood|Clint Eastwood
-7641|antonio_hernandez|Antonio Hern¬∑ndez
+7641|antonio_hernandez|Antonio Hern·ndez
 7642|paul_schrader|Paul Schrader
 7643|reggie-rock-bythewood|Reggie Rock Bythewood
 7644|delmer_daves|Delmer Daves
 7645|david-price|David Price
 7646|nicholas_kazan|Nicholas Kazan
-7647|alex_olle|¬°lex Oll√à
+7647|alex_olle|¡lex OllÈ
 7648|martin_stellman|Martin Stellman
 7649|leonard_nimoy|Leonard Nimoy
 7650|bill_paxton|Bill Paxton
@@ -7668,7 +7668,7 @@
 7668|theodore_j_flicker|Theodore J. Flicker
 7669|john_schlesinger|John Schlesinger
 7670|freddie_francis|Freddie Francis
-7671|volker_schloendorff|Volker SchlÀÜndorff
+7671|volker_schloendorff|Volker Schlˆndorff
 7672|david_l_cunningham|David L. Cunningham
 7673|baz_luhrmann|Baz Luhrmann
 7674|peter_greenaway|Peter Greenaway
@@ -7722,7 +7722,7 @@
 7722|m_night_shyamalan|M. Night Shyamalan
 7723|zach_braff|Zach Braff
 7724|yasujiro_ozu|Yasujiro Ozu
-7725|_0138893|Marcel Carn√à
+7725|_0138893|Marcel CarnÈ
 7726|david_lane|David Lane
 7727|david_lane|David Lane
 7728|sydney_pollack|Sydney Pollack
@@ -7733,7 +7733,7 @@
 7733|nikita_mikhalkov|Nikita Mikhalkov
 7734|sung_su_kim|Sung-su Kim
 7735|richard_lester|Richard Lester
-7736|volker_schloendorff|Volker SchlÀÜndorff
+7736|volker_schloendorff|Volker Schlˆndorff
 7737|michael_mann|Michael Mann
 7738|nick_hurran|Nick Hurran
 7739|michael_winterbottom|Michael Winterbottom
@@ -7867,7 +7867,7 @@
 7867|omar_naim|Omar Naim
 7868|mick_garris|Mick Garris
 7869|james_redford|James Redford
-7870|istvan_szabo|Istv¬∑n Szab√õ
+7870|istvan_szabo|Istv·n SzabÛ
 7871|eric_small|Eric Small
 7872|alain_cavalier|Alain Cavalier
 7873|mike_mitchell|Mike Mitchell
@@ -7895,9 +7895,9 @@
 7895|marc_forster|Marc Forster
 7896|yash_chopra|Yash Chopra
 7897|jon_turteltaub|Jon Turteltaub
-7898|pedro_almodovar|Pedro Almod√õvar
+7898|pedro_almodovar|Pedro AlmodÛvar
 7899|sherm_cohen|Sherm Cohen
-7900|michele-bernier|Mich√ãle Bernier
+7900|michele-bernier|MichËle Bernier
 7901|oliver_stone|Oliver Stone
 7902|joe_roth|Joe Roth
 7903|1069974-robert_stone|Robert Stone
@@ -7954,9 +7954,9 @@
 7954|edward_m_sedgwick|Edward M. Sedgwick
 7955|mary_lambert|Mary Lambert
 7956|charles_reisner|Charles Reisner
-7957|luis_bunuel|Luis Bu√íuel
+7957|luis_bunuel|Luis BuÒuel
 7958|mervyn_leroy|Mervyn LeRoy
-7959|luis_bunuel|Luis Bu√íuel
+7959|luis_bunuel|Luis BuÒuel
 7960|norman_z_mcleod|Norman Z. McLeod
 7961|vincent_sherman|Vincent Sherman
 7962|brian_de_palma|Brian DePalma
@@ -8000,7 +8000,7 @@
 8000|michael_curtiz|Michael Curtiz
 8001|sergei_eisenstein|Sergei M. Eisenstein
 8002|john_ford|John Ford
-8003|alfonso_cuaron|Alfonso Cuar√õn
+8003|alfonso_cuaron|Alfonso CuarÛn
 8004|jean_negulesco|Jean Negulesco
 8005|1181454-bryan_bertino|Bryan Bertino
 8006|edmund_goulding|Edmund Goulding
@@ -8022,7 +8022,7 @@
 8022|jeanpierre_melville|Jean-Pierre Melville
 8023|henry_king|Henry King
 8024|andrew_marton|Andrew Marton
-8025|luis_bunuel|Luis Bu√íuel
+8025|luis_bunuel|Luis BuÒuel
 8026|akira_kurosawa|Akira Kurosawa
 8027|brian_de_palma|Brian DePalma
 8028|kenji_mizoguchi|Kenji Mizoguchi
@@ -8060,7 +8060,7 @@
 8060|robert_aldrich|Robert Aldrich
 8061|oliver_stone|Oliver Stone
 8062|samuel_fuller|Samuel Fuller
-8063|kaneto_shindo|Kaneto Shind√ô
+8063|kaneto_shindo|Kaneto ShindÙ
 8064|gordon_douglas|Gordon Douglas
 8065|byron_haskin|Byron Haskin
 8066|j_lee_thompson|J. Lee Thompson
@@ -8078,10 +8078,10 @@
 8078|robert_bresson|Robert Bresson
 8079|leslie_h_martinson|Leslie H. Martinson
 8080|basil_dearden|Basil Dearden
-8081|jiri_menzel|Jir√å Menzel
+8081|jiri_menzel|JirÌ Menzel
 8082|seijun_suzuki|Seijun Suzuki
 8083|da_pennebaker|D.A. Pennebaker
-8084|francois_truffaut|Fran√Åois Truffaut
+8084|francois_truffaut|FranÁois Truffaut
 8085|jacques_tati|Jacques Tati
 8086|george_armitage|George Armitage
 8087|michael_catonjones|Michael Caton-Jones
@@ -8124,7 +8124,7 @@
 8124|bob_dolman|Bob Dolman
 8125|douglas_hickox|Douglas Hickox
 8126|robert_altman|Robert Altman
-8127|luis_bunuel|Luis Bu√íuel
+8127|luis_bunuel|Luis BuÒuel
 8128|ken-shapiro|Ken Shapiro
 8129|alejandro_jodorowsky|Alejandro Jodorowsky
 8130|gene_wilder|Gene Wilder
@@ -8133,7 +8133,7 @@
 8133|arthur_penn|Arthur Penn
 8134|antonioni|Michelangelo Antonioni
 8135|bernardo_bertolucci|Bernardo Bertolucci
-8136|francois_truffaut|Fran√Åois Truffaut
+8136|francois_truffaut|FranÁois Truffaut
 8137|frank_d_gilroy|Frank D. Gilroy
 8138|barbara_kopple|Barbara Kopple
 8139|arthur_penn|Arthur Penn
@@ -8172,7 +8172,7 @@
 8172|stewart_raffill|Stewart Raffill
 8173|richard_benjamin|Richard Benjamin
 8174|robert_epstein|Robert Epstein
-8175|pedro_almodovar|Pedro Almod√õvar
+8175|pedro_almodovar|Pedro AlmodÛvar
 8176|michael_dinner|Michael Dinner
 8177|jackie_chan|Jackie Chan
 8178|paul_schrader|Paul Schrader
@@ -8187,7 +8187,7 @@
 8187|evelyn_purcell|Evelyn Purcell
 8188|andrei_tarkovsky|Andrei Tarkovsky
 8189|john_woo|John Woo
-8190|pedro_almodovar|Pedro Almod√õvar
+8190|pedro_almodovar|Pedro AlmodÛvar
 8191|1040928-john_carpenter|John Carpenter
 8192|ching_siutung|Siu-Tung Ching
 8193|doug_liman|Doug Liman
@@ -8215,7 +8215,7 @@
 8215|fax_bahr|Fax Bahr
 8216|gerd_oswald|Gerd Oswald
 8217|isao_takahata|Isao Takahata
-8218|162659443|Lasse HallstrÀÜm
+8218|162659443|Lasse Hallstrˆm
 8219|norman_jewison|Norman Jewison
 8220|john-flynn|John Flynn
 8221|simon_wincer|Simon Wincer
@@ -8248,7 +8248,7 @@
 8248|yoshifumi_kondo|Yoshifumi Kondo
 8249|lloyd_kaufman|Lloyd Kaufman
 8250|lik_chi_lee|Lik-Chi Lee
-8251|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
+8251|aki_kaurismaeki|Aki Kaurism‰ki
 8252|lloyd_kaufman|Lloyd Kaufman
 8253|ekachai_uekrongtham|Ekachai Uekrongtham
 8254|harmony_korine|Harmony Korine
@@ -8263,7 +8263,7 @@
 8263|toshiya_fujita|Toshiya Fujita
 8264|joe_chappelle|Joe Chappelle
 8265|michel-ocelot|Michel Ocelot
-8266|gerard_krawczyk|G√àrard Krawczyk
+8266|gerard_krawczyk|GÈrard Krawczyk
 8267|abbas_kiarostami|Abbas Kiarostami
 8268|karwai-wong|Kar Wai Wong
 8269|nagisa_oshima|Nagisa Oshima
@@ -8282,7 +8282,7 @@
 8282|adam_marcus|Adam Marcus
 8283|josef_fares|Josef Fares
 8284|khalo_matabane|Khalo Matabane
-8285|jaume_balaguero|Jaume Balaguer√õ
+8285|jaume_balaguero|Jaume BalaguerÛ
 8286|harry_bromley_davenport|Harry Bromley Davenport
 8287|jan_kounen|Jan Kounen
 8288|george_butler|George Butler
@@ -8305,7 +8305,7 @@
 8305|peter_hyams|Peter Hyams
 8306|alain_corneau|Alain Corneau
 8307|changdong_lee|Chang-dong Lee
-8308|leander_haussmann|Leander HauÔ¨Çmann
+8308|leander_haussmann|Leander Hauﬂmann
 8309|gabriele_muccino|Gabriele Muccino
 8310|stephen_fry|Stephen Fry
 8311|1064812-andy_jones|Andy Jones
@@ -8314,7 +8314,7 @@
 8314|zhuangzhuang_tian|Zhuangzhuang Tian
 8315|damon_santostefano|Damon Santostefano
 8316|olivier_dahan|Olivier Dahan
-8317|mikael_hafstrom|Mikael H√Çfstrom
+8317|mikael_hafstrom|Mikael HÂfstrom
 8318|brad_silberling|Brad Silberling
 8319|anders_thomas_jensen|Anders Thomas Jensen
 8320|jeanpierre_jeunet|Jean-Pierre Jeunet
@@ -8332,7 +8332,7 @@
 8332|patrice_leconte|Patrice Leconte
 8333|1168219-takashi_shimizu|Takashi Shimizu
 8334|chan_wook_park|Chan Wook Park
-8335|cedric_kahn|C√àdric Kahn
+8335|cedric_kahn|CÈdric Kahn
 8336|grant-harvey|Grant Harvey
 8337|daniel_burman|Daniel Burman
 8338|john_maybury|John Maybury
@@ -8340,7 +8340,7 @@
 8340|guy_maddin|Guy Maddin
 8341|jorge_furtado|Jorge Furtado
 8342|prachya_pinkaew|Prachya Pinkaew
-8343|alejandro_amenabar|Alejandro Amen¬∑bar
+8343|alejandro_amenabar|Alejandro Amen·bar
 8344|james_l_brooks|James L. Brooks
 8345|bob_smeaton|Bob Smeaton
 8346|christophe_barratier|Christophe Barratier
@@ -8449,7 +8449,7 @@
 8449|charles_barton|Charles Barton
 8450|stephen_hopkins|Stephen Hopkins
 8451|shinji_aramaki|Shinji Aramaki
-8452|luis_bunuel|Luis Bu√íuel
+8452|luis_bunuel|Luis BuÒuel
 8453|john-lounsbery|John Lounsbery
 8454|rob_bowman|Rob Bowman
 8455|frederik_du_chau|Frederik Du Chau
@@ -8462,14 +8462,14 @@
 8462|david_cronenberg|David Cronenberg
 8463|luchino_visconti|Luchino Visconti
 8464|preston_sturges|Preston Sturges
-8465|rene_clair|Ren√à Clair
+8465|rene_clair|RenÈ Clair
 8466|ousmane_sembene|Ousmane Sembene
 8467|ash|Ash
 8468|joonho_bong|Joon-ho Bong
 8469|adam-rifkin|Adam Rifkin
 8470|marco-kreuzpaintner|Marco Kreuzpaintner
 8471|oliver_hirschbiegel|Oliver Hirschbiegel
-8472|jean_francois_richet|Jean-Fran√Åois Richet
+8472|jean_francois_richet|Jean-FranÁois Richet
 8473|brian_levant|Brian Levant
 8474|uwe_boll|Uwe Boll
 8475|john_polson|John Polson
@@ -8500,7 +8500,7 @@
 8500|bob_rafelson|Bob Rafelson
 8501|anthony_mann|Anthony Mann
 8502|hayao_miyazaki|Hayao Miyazaki
-8503|katsuhiro_otomo|Katsuhiro ‚Äòtomo
+8503|katsuhiro_otomo|Katsuhiro ‘tomo
 8504|andrew_horn|Andrew Horn
 8505|andy_tennant|Andy Tennant
 8506|frank-nissen|Frank Nissen
@@ -8531,8 +8531,8 @@
 8531|jeanluc_godard|Jean-Luc Godard
 8532|shekhar_kapur|Shekhar Kapur
 8533|jacques_tourneur|Jacques Tourneur
-8534|nimrd-antal|Nimr√õd Antal
-8535|francois_ozon|Fran√Åois Ozon
+8534|nimrd-antal|NimrÛd Antal
+8535|francois_ozon|FranÁois Ozon
 8536|roberto_rossellini|Roberto Rossellini
 8537|lukas_moodysson|Lukas Moodysson
 8538|al_corley|Al Corley
@@ -8576,7 +8576,7 @@
 8576|louis_malle|Louis Malle
 8577|bo_arne_vibenius|Bo Arne Vibenius
 8578|ernie_barbarash|Ernie Barbarash
-8579|istvan_szabo|Istv¬∑n Szab√õ
+8579|istvan_szabo|Istv·n SzabÛ
 8580|junhwan_jeong|Jun-hwan Jeong
 8581|mervyn_leroy|Mervyn LeRoy
 8582|john_irvin|John Irvin
@@ -8593,7 +8593,7 @@
 8593|john_schlesinger|John Schlesinger
 8594|sylvester_stallone|Sylvester Stallone
 8595|agust_guomundsson|Agust Guomundsson
-8596|_0686304|Marcelo Pi√íeyro
+8596|_0686304|Marcelo PiÒeyro
 8597|michael_schultz|Michael Schultz
 8598|john_ford|John Ford
 8599|howard_hawks|Howard Hawks
@@ -8603,24 +8603,24 @@
 8603|howard_hawks|Howard Hawks
 8604|elia_kazan|Elia Kazan
 8605|henry_hathaway|Henry Hathaway
-8606|volker_schloendorff|Volker SchlÀÜndorff
+8606|volker_schloendorff|Volker Schlˆndorff
 8607|vincente_minnelli|Vincente Minnelli
 8608|francis_ford_coppola|Francis Ford Coppola
 8609|tobe_hooper|Tobe Hooper
 8610|kihachi_okamoto|Kihachi Okamoto
 8611|arturo_ripstein|Arturo Ripstein
 8612|alex_de_la_iglesia|Alex de la Iglesia
-8613|inoshiro-honda|Ishir√ô Honda
+8613|inoshiro-honda|IshirÙ Honda
 8614|mark_dornford_may|Mark Dornford-May
 8615|isao_takahata|Isao Takahata
 8616|thomas_jahn|Thomas Jahn
 8617|neil_jordan|Neil Jordan
-8618|max-ophuls|Max Oph¬∏ls
+8618|max-ophuls|Max Oph¸ls
 8619|judy_irving|Judy Irving
 8620|rebecca_miller|Rebecca Miller
 8621|robert_rodriguez|Robert Rodriguez
 8622|bille_woodruff|Bille Woodruff
-8623|agnes_jaoui|Agn√ãs Jaoui
+8623|agnes_jaoui|AgnËs Jaoui
 8624|dana_brown|Dana Brown
 8625|breck_eisner|Breck Eisner
 8626|bobby_farrelly|Bobby Farrelly
@@ -8634,7 +8634,7 @@
 8634|james_william_guercio|James William Guercio
 8635|michael_apted|Michael Apted
 8636|ettore_scola|Ettore Scola
-8637|frederic_back|Fr√àd√àric Back
+8637|frederic_back|FrÈdÈric Back
 8638|roderick_giles|Roderick Giles
 8639|michael_haussman|Michael Haussman
 8640|franklin_j_schaffner|Franklin J. Schaffner
@@ -8646,7 +8646,7 @@
 8646|antonioni|Michelangelo Antonioni
 8647|juliusz_machulski|Juliusz Machulski
 8648|mervyn_leroy|Mervyn LeRoy
-8649|_0649096|Marcel Oph¬∏ls
+8649|_0649096|Marcel Oph¸ls
 8650|howard_morris|Howard Morris
 8651|jacques_tati|Jacques Tati
 8652|charles_reisner|Charles Reisner
@@ -8754,7 +8754,7 @@
 8754|robert_wise|Robert Wise
 8755|lee_grant|Lee Grant
 8756|john_paragon|John Paragon
-8757|cedric_klapisch|C√àdric Klapisch
+8757|cedric_klapisch|CÈdric Klapisch
 8758|craig_brewer|Craig Brewer
 8759|1043889-richard_stanley|Richard Stanley
 8760|ed_harris|Ed Harris
@@ -8825,10 +8825,10 @@
 8825|nahala_johnson|Nahala Johnson
 8826|rob_mckittrick|Rob McKittrick
 8827|karyn_kusama|Karyn Kusama
-8828|162659443|Lasse HallstrÀÜm
+8828|162659443|Lasse Hallstrˆm
 8829|peyton_reed|Peyton Reed
 8830|werner_herzog|Werner Herzog
-8831|jaume_balaguero|Jaume Balaguer√õ
+8831|jaume_balaguero|Jaume BalaguerÛ
 8832|robert_schwentke|Robert Schwentke
 8833|tim_burton|Tim Burton
 8834|lexi_alexander|Lexi Alexander
@@ -8894,7 +8894,7 @@
 8894|rowan-woods|Rowan Woods
 8895|steve_rash|Steve Rash
 8896|lars_von_trier|Lars von Trier
-8897|1066196-rodrigo_garcia|Rodrigo Garc√åa
+8897|1066196-rodrigo_garcia|Rodrigo GarcÌa
 8898|paris-barclay|Paris Barclay
 8899|1167746-fernando_eimbcke|Fernando Eimbcke
 8900|guy_ritchie|Guy Ritchie
@@ -8903,13 +8903,13 @@
 8903|mark_dindal|Mark Dindal
 8904|shane_meadows|Shane Meadows
 8905|christian_carion|Christian Carion
-8906|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
-8907|mika-kaurismaki|Mika Kaurism‚Ä∞ki
+8906|aki_kaurismaeki|Aki Kaurism‰ki
+8907|mika-kaurismaki|Mika Kaurism‰ki
 8908|jim_sheridan|Jim Sheridan
 8909|roger_kumble|Roger Kumble
 8910|stephen_gaghan|Stephen Gaghan
-8911|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
-8912|mikael_hafstrom|Mikael H√Çfstrom
+8911|aki_kaurismaeki|Aki Kaurism‰ki
+8912|mikael_hafstrom|Mikael HÂfstrom
 8913|joe_wright|Joe Wright
 8914|greg_mclean|Greg McLean
 8915|1145736-neil_marshall|Neil Marshall
@@ -8936,7 +8936,7 @@
 8936|mike_barker|Mike Barker
 8937|martin_scorsese|Martin Scorsese
 8938|woody_allen|Woody Allen
-8939|luis_bunuel|Luis Bu√íuel
+8939|luis_bunuel|Luis BuÒuel
 8940|fenton_bailey|Fenton Bailey
 8941|craig_lucas|Craig Lucas
 8942|hany-abuassad|Hany Abu-Assad
@@ -8950,7 +8950,7 @@
 8950|barbara_kopple|Barbara Kopple
 8951|masaki_kobayashi|Masaki Kobayashi
 8952|renny_bartlett|Renny Bartlett
-8953|pedro_almodovar|Pedro Almod√õvar
+8953|pedro_almodovar|Pedro AlmodÛvar
 8954|sarah-watt|Sarah Watt
 8955|petter_naess|Petter Naess
 8956|raoul_walsh|Raoul Walsh
@@ -8962,7 +8962,7 @@
 8962|adam_shankman|Adam Shankman
 8963|dean_parisot|Dean Parisot
 8964|gore_verbinski|Gore Verbinski
-8965|162659443|Lasse HallstrÀÜm
+8965|162659443|Lasse Hallstrˆm
 8966|stephen_frears|Stephen Frears
 8967|james_ivory|James Ivory
 8968|john_mallory_asher|John Mallory Asher
@@ -8992,7 +8992,7 @@
 8992|daniel_haller|Daniel Haller
 8993|deepa_mehta|Deepa Mehta Saltzman
 8994|marc_rothemund|Marc Rothemund
-8995|aleksi_makela|Aleksi M‚Ä∞kel‚Ä∞
+8995|aleksi_makela|Aleksi M‰kel‰
 8996|roger_donaldson|Roger Donaldson
 8997|espen_sandberg|Espen Sandberg
 8998|michael_winterbottom|Michael Winterbottom
@@ -9040,7 +9040,7 @@
 9040|spike_lee|Spike Lee
 9041|gavin-hood|Gavin Hood
 9042|770910609|Elizabeth Allen (II)
-9043|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
+9043|aki_kaurismaeki|Aki Kaurism‰ki
 9044|alexandre-aja|Alexandre Aja
 9045|brian_robbins|Brian Robbins
 9046|blake_edwards|Blake Edwards
@@ -9053,7 +9053,7 @@
 9053|robert_bresson|Robert Bresson
 9054|robert_bresson|Robert Bresson
 9055|ryan_thomas|Ryan Thomas
-9056|pedro_almodovar|Pedro Almod√õvar
+9056|pedro_almodovar|Pedro AlmodÛvar
 9057|doug_atchison|Doug Atchison
 9058|trent-cooper|Trent Cooper
 9059|william_brent_bell|William Brent Bell
@@ -9064,7 +9064,7 @@
 9064|chris_robinson_iv|Chris Robinson (IV)
 9065|james_gunn|James Gunn
 9066|dennis_dugan|Dennis Dugan
-9067|nnegest_likke|Nnegest Likk√à
+9067|nnegest_likke|Nnegest LikkÈ
 9068|christian_volckman|Christian Volckman
 9069|jaidev_chakravorty|Jaidev Chakravorty
 9070|andy_fickman|Andy Fickman
@@ -9134,9 +9134,9 @@
 9134|billy-kent|Billy Kent
 9135|1167865-jonathan_dayton|Jonathan Dayton
 9136|keith-fulton|Keith Fulton
-9137|rudolph_mate|Rudolph Mat√à
+9137|rudolph_mate|Rudolph MatÈ
 9138|carol_reed|Carol Reed
-9139|alejandro_gonzalez_inniaritu|Alejandro Gonz¬∑lez I√í¬∑rritu
+9139|alejandro_gonzalez_inniaritu|Alejandro Gonz·lez IÒ·rritu
 9140|paul_dinello|Paul Dinello
 9141|john_ford|John Ford
 9142|hsiaohsien_hou|Hsiao-hsien Hou
@@ -9199,7 +9199,7 @@
 9199|ken_loach|Ken Loach
 9200|lajos_koltai|Lajos Koltai
 9201|christopher_smith|Christopher Smith
-9202|francois_ozon|Fran√Åois Ozon
+9202|francois_ozon|FranÁois Ozon
 9203|allen_coulter|Allen Coulter
 9204|renny_harlin|Renny Harlin
 9205|andrew_dominik|Andrew Dominik
@@ -9218,7 +9218,7 @@
 9218|phil_joanou|Phil Joanou
 9219|robert_altman|Robert Altman
 9220|wim_wenders|Wim Wenders
-9221|gyoergy_palfi|GyÀÜrgy P¬∑lfi
+9221|gyoergy_palfi|Gyˆrgy P·lfi
 9222|eric-steel|Eric Steel
 9223|alexander_korda|Alexander Korda
 9224|mel_gibson|Mel Gibson
@@ -9253,7 +9253,7 @@
 9253|kevin_macdonald|Kevin Macdonald
 9254|david-leaf|David Leaf
 9255|john_cameron_mitchell|John Cameron Mitchell
-9256|alfonso_cuaron|Alfonso Cuar√õn
+9256|alfonso_cuaron|Alfonso CuarÛn
 9257|christopher_nolan|Christopher Nolan
 9258|clint_eastwood|Clint Eastwood
 9259|michael_mayer_vi|Michael Mayer (VI)
@@ -9326,7 +9326,7 @@
 9326|chris_noonan|Chris Noonan
 9327|luc_besson|Luc Besson
 9328|joe_nussbaum|Joe Nussbaum
-9329|agnes_varda|Agn√ãs Varda
+9329|agnes_varda|AgnËs Varda
 9330|henry_king|Henry King
 9331|kelly_reichardt|Kelly Reichardt
 9332|roger_michell|Roger Michell
@@ -9437,7 +9437,7 @@
 9437|bruce_beresford|Bruce Beresford
 9438|gregory_hoblit|Gregory Hoblit
 9439|jeanbaptiste-andrea|Jean-Baptiste Andrea
-9440|nimrd-antal|Nimr√õd Antal
+9440|nimrd-antal|NimrÛd Antal
 9441|michael_haneke|Michael Haneke
 9442|jon_kasdan|Jon Kasdan
 9443|steve_bendelack|Steve Bendelack
@@ -9475,7 +9475,7 @@
 9475|steven_soderbergh|Steven Soderbergh
 9476|david_moreau|David Moreau
 9477|rolf_de_heer|Rolf de Heer
-9478|leander_haussmann|Leander HauÔ¨Çmann
+9478|leander_haussmann|Leander Hauﬂmann
 9479|eli_roth|Eli Roth
 9480|gus_van_sant|Gus Van Sant
 9481|tim_burton|Tim Burton
@@ -9495,14 +9495,14 @@
 9495|lindsay_anderson|Lindsay Anderson
 9496|1055159-michael_moore|Michael Moore
 9497|michael_winterbottom|Michael Winterbottom
-9498|mikael_hafstrom|Mikael H√Çfstrom
+9498|mikael_hafstrom|Mikael HÂfstrom
 9499|sara_st_onge|Sara St. Onge
 9500|len_wiseman|Len Wiseman
 9501|ken_kwapis|Ken Kwapis
 9502|lajos_koltai|Lajos Koltai
 9503|tom_shadyac|Tom Shadyac
 9504|borja_manso|Borja Manso
-9505|roland_joffe|Roland Joff√à
+9505|roland_joffe|Roland JoffÈ
 9506|david_yates|David Yates
 9507|david_dobkin|David Dobkin
 9508|_0282425|Peter Flinth
@@ -9608,7 +9608,7 @@
 9608|anton_corbijn|Anton Corbijn
 9609|robin_swicord|Robin Swicord
 9610|larry_fessenden|Larry Fessenden
-9611|francois_girard|Fran√Åois Girard
+9611|francois_girard|FranÁois Girard
 9612|shekhar_kapur|Shekhar Kapur
 9613|jeff_garlin|Jeff Garlin
 9614|1178642-jonathan_king|Jonathan King
@@ -9619,7 +9619,7 @@
 9619|daniel_g_karslake|Daniel G. Karslake
 9620|christian-charles|Christian Charles
 9621|amir-bar-lev|Amir Bar-Lev
-9622|jose_padilha|Jos√à Padilha
+9622|jose_padilha|JosÈ Padilha
 9623|1185012-cao_hamburger|Cao Hamburger
 9624|mike_cahill|Mike Cahill
 9625|menno_meyjes|Menno Meyjes
@@ -9646,7 +9646,7 @@
 9646|phil_karlson|Phil Karlson
 9647|alison_eastwood|Alison Eastwood
 9648|1181054-ted_braun|Ted Braun
-9649|jiri_menzel|Jir√å Menzel
+9649|jiri_menzel|JirÌ Menzel
 9650|robert_n_bradbury|Robert N. Bradbury
 9651|1180692-julie_gavras|Julie Gavras
 9652|frank_darabont|Frank Darabont
@@ -9687,14 +9687,14 @@
 9687|denzel_washington|Denzel Washington
 9688|justin_theroux|Justin Theroux
 9689|alex_haworth|Alex Haworth
-9690|felix_enriquez_alcala|F√àlix Enr√åquez Alcal¬∑
+9690|felix_enriquez_alcala|FÈlix EnrÌquez Alcal·
 9691|paul_o_beale|Paul O. Beale
 9692|lance_rivera|Lance Rivera
 9693|anne_fletcher|Anne Fletcher
 9694|woody_allen|Woody Allen
 9695|hyungrae_shim|Hyung-rae Shim
 9696|1182131-eran_kolirin|Eran Kolirin
-9697|jaume_balaguero|Jaume Balaguer√õ
+9697|jaume_balaguero|Jaume BalaguerÛ
 9698|uwe_boll|Uwe Boll
 9699|michael_radford|Michael Radford
 9700|matt_reeves|Matt Reeves
@@ -9841,7 +9841,7 @@
 9841|1180381-john_stevenson|John Stevenson
 9842|rob-vanalkemade|Rob VanAlkemade
 9843|jay-roach|Jay Roach
-9844|peter_schonau_fog|Peter Sch¬Ønau Fog
+9844|peter_schonau_fog|Peter Sch¯nau Fog
 9845|otto_preminger|Otto Preminger
 9846|tom_gries|Tom Gries
 9847|dennis_dugan|Dennis Dugan
@@ -9895,7 +9895,7 @@
 9895|noboru_iguchi|Noboru Iguchi
 9896|kirsten_sheridan|Kirsten Sheridan
 9897|gillian_armstrong|Gillian Armstrong
-9898|celine-sciamma|C√àline Sciamma
+9898|celine-sciamma|CÈline Sciamma
 9899|ole_bornedal|Ole Bornedal
 9900|1122723-nicolas_klotz|Nicolas Klotz
 9901|andrew_black|Andrew Black
@@ -9965,12 +9965,12 @@
 9965|1191225-chris_eska|Chris Eska
 9966|yang_zhang|Yang Zhang
 9967|s_sylvan_simon|S. Sylvan Simon
-9968|daniel_sanchez_arevalo|Daniel S¬∑nchez Ar√àvalo
+9968|daniel_sanchez_arevalo|Daniel S·nchez ArÈvalo
 9969|10000961-jody_hill|Jody Hill
 9970|jon_avnet|Jon Avnet
 9971|neil_labute|Neil LaBute
 9972|joe_mendez|Joe Mendez
-9973|aki_kaurismaeki|Aki Kaurism‚Ä∞ki
+9973|aki_kaurismaeki|Aki Kaurism‰ki
 9974|david_koepp|David Koepp
 9975|emir_kusturica|Emir Kusturica
 9976|ulrich_seidl|Ulrich Seidl
