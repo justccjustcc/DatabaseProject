@@ -334,6 +334,33 @@ def chooseCountry():
     context = dict(data = movie_list, data1 = actor_list, data2 = genre_list)
     return render_template("movieresult.html", **context)
 
+
+@app.route('/recommend', methods=['POST'])
+def recommend():
+    input = request.form['userid']
+    if input == "age":
+        user = g.conn.execute("SELECT age FROM users WHERE uid = %s", input)
+        user_age = user.age
+        user.close()
+        users = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, AVG(R.score) AS ave
+        FROM users U, rate R, movie M
+        WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5''',user_age)
+
+        user_list = []
+        item = users.fetchone()
+        while not item == None:
+            user_list.append(item)
+            item = users.fetchone()
+        context = dict(data = users data1 = input)
+        users.close()
+        return render_template("recommendation.html", **context)
+        
+    elif input == "gender":
+    elif input == "occupation":
+    elif input == "genre":
+
+
 if __name__ == "__main__":
   import click
 
