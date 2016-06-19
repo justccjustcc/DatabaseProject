@@ -243,7 +243,8 @@ def chooseArea():
 @app.route('/chooseCountry', methods=['POST'])
 def chooseCountry():
     input = request.form['country']
-    movie = g.conn.execute('''SELECT * FROM country WHERE cid = %s''', input)
+    movie = g.conn.execute('''SELECT * FROM country C, movie M 
+    WHERE C.cid = M.cid AND C.cname = %s''', input)
     movie_list = []
     for t in movie_list:
         movie_list.append(t)
