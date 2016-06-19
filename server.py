@@ -396,7 +396,7 @@ def recommend():
         FROM users U, rate R, movie M
         WHERE U.occupation = %s AND U.uid = R.uid AND R.mid = M.mid
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
-        ORDER BY ave''',user_occupation)
+        ORDER BY ave''',user_job)
 
         movie_list = []
         item = movie.fetchone()
