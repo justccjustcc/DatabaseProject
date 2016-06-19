@@ -246,17 +246,29 @@ def rate():
 @app.route('/searchActor', methods=['POST'])
 def searchActor():
     input = request.form['Actorname']
-    actor = g.conn.execute('''SELECT A1.aname, M.mname, M.year, M.rating, A1.count
-    FROM (SELECT A.aid, A.aname, COUNT(*) AS count FROM actor A, played_by P
-    WHERE A.aid = P.aid AND A.aname = %s GROUP BY A.aid, A.aname) A1, played_by P1, movie M
-    WHERE A1.aid = P1.aid AND P1.mid = M.mid ''',input)
+    actor = g.conn.execute('''SELECT A.aid, A.aname, COUNT(*) AS count FROM actor A, played_by P
+    WHERE A.aid = P.aid AND A.aname = %s GROUP BY A.aid, A.aname''',input)
+
+    movie = g.conn.execute('''SELECT P1.aid, M.mname, M.rating, M.year
+    FROM (SELECT P.aid P.mid FROM actor A, played_by P
+    WHERE A.aid = P.aid AND A.aname = %s) P1, movie M
+    WHERE P1.mid = M.mid ''',input)
+
     actor_list = []
     item = actor.fetchone()
     while not item == None:
         actor_list.append(item)
         item = actor.fetchone()
-    context = dict(data = actor_list)
+
+    movie_list = []
+    item = movie.fetchone()
+    while not item == None:
+        movie_list.append(item)
+        item = movie.fetchone()
+
+    context = dict(data = actor_list, data1 = movie_list)
     actor.close()
+    movie.close()
     return render_template("actorresult.html",**context)
 
 
