@@ -174,7 +174,7 @@ def add():
   movie = g.conn.execute('''SELECT * FROM movie M, director D
   WHERE M.mname=%s AND M.did = D.did''', input)
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
-  WHERE M.name = %s AND M.mid = P.mid AND P.aid = A.aid''')
+  WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid''', input)
 
   movie_list = []
   item = movie.fetchone()
