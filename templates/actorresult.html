@@ -1,0 +1,17 @@
+<html>
+<h1>Actor Search Result:</h1>
+<h2>Actor: {{data[0].aname}}  <small>ID: {{data[0].aid}}</small><h2>
+<h3>Found {{data[0].count}} movies played by {{data[0].aname}}</h3>
+
+<ul>
+{%for t in data%}
+<li>
+<h3>{{t.mname}} <small>({{t.year}})</small></h3>
+<h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
+<br></br>
+</li>
+{%endfor%}
+<p>No more result.</p>
+</ul>
+<p><a href="/">Back to home page.</a></p>
+</html>
