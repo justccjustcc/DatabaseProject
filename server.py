@@ -165,7 +165,7 @@ def index():
 @app.route('/searchmovie', methods=['POST'])
 def searchmovie():
   input = request.form['moviename']
-  movie = g.conn.execute('''SELECT * FROM movie M, director D, country C
+  movie = g.conn.execute('''SELECT * FROM movie M, director D, country C,
   (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave
   FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
   WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid AND M.cid = C.cid
