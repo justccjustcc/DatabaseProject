@@ -371,7 +371,7 @@ def recommend():
         user_gender = user.fetchone()['gender']
         print user_gender
 
-        movie = ('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
+        movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.gender = %s AND U.uid = R.uid AND R.mid = M.mid
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
@@ -392,7 +392,7 @@ def recommend():
         user_job = user.fetchone()['occupation']
         print user_job
 
-        movie = ('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
+        movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.occupation = %s AND U.uid = R.uid AND R.mid = M.mid
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
