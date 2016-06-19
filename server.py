@@ -208,7 +208,7 @@ def search():
 
     movie = g.conn.execute('''SELECT D1.did, M1.mname, M1.rating, M1.year
     FROM (SELECT D.did FROM director D WHERE D.dname = %s) D1, movie M1
-    WHERE D1.did = M1.did''', input)
+    WHERE D1.did = M1.did ORDER BY M1.year''', input)
 
     director_list = []
     item = director.fetchone()
@@ -252,7 +252,7 @@ def searchActor():
     movie = g.conn.execute('''SELECT P1.aid, M.mname, M.rating, M.year
     FROM (SELECT P.aid, P.mid FROM actor A, played_by P
     WHERE A.aid = P.aid AND A.aname = %s) P1, movie M
-    WHERE P1.mid = M.mid ''',input)
+    WHERE P1.mid = M.mid ORDER BY M.year''',input)
 
     actor_list = []
     item = actor.fetchone()
