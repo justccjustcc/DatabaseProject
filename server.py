@@ -173,7 +173,8 @@ def searchmovie():
   input = request.form['moviename']
   movie = g.conn.execute('''SELECT * FROM movie M, director D,
   (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
-  WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid''', input)
+  WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid
+  ORDER BY M2.ave''', input)
 
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
   WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid''', input)
@@ -200,17 +201,32 @@ def searchmovie():
 @app.route('/searchDirector', methods=['POST'])
 def search():
     input = request.form['Directorname']
-    director = g.conn.execute('''SELECT D1.did, D1.dname, M1.mname, D1.count, M1.rating, M1.year
-    FROM (SELECT D.did, D.dname, COUNT(*) AS count FROM director D, movie M WHERE M.did = D.did
-    AND D.dname=%s GROUP BY D.did, D.dname) D1, movie M1 WHERE D1.did = M1.did''', input)
+    director = g.conn.execute('''SELECT D.did, D.dname, COUNT(*) AS count
+    FROM director D, movie M
+    WHERE M.did = D.did
+    AND D.dname=%s GROUP BY D.did, D.dname''', input)
+
+    movie = g.conn.execute('''SELECT D1.did, M1.mname, M1.rating, M1.year
+    FROM (SELECT D.did FROM director D WHERE D.dname = %s) D1, movie M1
+    WHERE D1.did = M1.did''', input)
+
     director_list = []
     item = director.fetchone()
     while not item == None:
         director_list.append(item)
         item = director.fetchone()
-    context = dict(data = director_list)
-    return render_template("directorresult.html",**context)
+
+    movie_list = []
+    item = movie.fetchone()
+    while not item == None:
+        movie_list.append(item)
+        item = movie.fetchone()
+
+    context = dict(data = director_list, data1 = movie_list)
     director.close()
+    movie.close()
+    return render_template("directorresult.html",**context)
+
 
 # submit a rate from user
 @app.route('/rate',  methods=['POST'])
@@ -262,7 +278,8 @@ def chooseCountry():
     input = request.form['country']
     movie = g.conn.execute('''SELECT * FROM country C, movie M, director D,
     (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
-    WHERE C.cid = M.cid AND M.did = D.did AND M2.mid = M.mid AND C.cname = %s''', input)
+    WHERE C.cid = M.cid AND M.did = D.did AND M2.mid = M.mid AND C.cname = %s
+    ORDER BY M2.ave''', input)
 
     other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
     WHERE C.cid = M.cid AND M.mid = P.mid AND P.aid = A.aid AND C.cname = %s''', input)
