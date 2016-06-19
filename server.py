@@ -377,13 +377,36 @@ def recommend():
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
         ORDER BY ave''',user_gender)
 
+        movie_list = []
+        item = movie.fetchone()
+        while not item == None:
+            movie_list.append(item)
+            item = movie.fetchone()
+        context = dict(data = movie_list, data1 = input)
+        user.close()
         movie.close()
-        return 'hi'
+        return render_template("recommendation.html", **context)
 
     elif input == "occupation":
-        return 'h1'
-    elif input == "genre":
-        return 'h1'
+        user = g.conn.execute("SELECT occupation FROM users WHERE uid = %s", user_id)
+        user_job = user.fetchone()['occupation']
+        print user_occupation
+
+        movie = ('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
+        FROM users U, rate R, movie M
+        WHERE U.occupation = %s AND U.uid = R.uid AND R.mid = M.mid
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
+        ORDER BY ave''',user_occupation)
+
+        movie_list = []
+        item = movie.fetchone()
+        while not item == None:
+            movie_list.append(item)
+            item = movie.fetchone()
+        context = dict(data = movie_list, data1 = input)
+        user.close()
+        movie.close()
+        return render_template("recommendation.html", **context)
 
 if __name__ == "__main__":
   import click
