@@ -352,10 +352,10 @@ def recommend():
         while not item == None:
             user_list.append(item)
             item = users.fetchone()
-        context = dict(data = users data1 = input)
+        context = dict(data = users,data1 = input)
         users.close()
         return render_template("recommendation.html", **context)
-        
+
     elif input == "gender":
     elif input == "occupation":
     elif input == "genre":
