@@ -390,7 +390,7 @@ def recommend():
     elif input == "occupation":
         user = g.conn.execute("SELECT occupation FROM users WHERE uid = %s", user_id)
         user_job = user.fetchone()['occupation']
-        print user_occupation
+        print user_job
 
         movie = ('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
