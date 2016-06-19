@@ -239,6 +239,7 @@ def rate():
     movieid = int(request.form['movie'])
     userid = int(request.form['userid'])
     score = float(request.form['score'])
+    # check whether this userid is valid
     person = g.conn.execute ("SELECT * FROM users U WHERE U.uid = %s",userid)
     if not person.fetchone() == None:
         res = g.conn.execute("SELECT * FROM rate R WHERE R.mid = %s AND R.uid = %s", movieid, userid)
@@ -339,7 +340,11 @@ def chooseCountry():
 def recommend():
     input = request.form['method']
     user_id = int(request.form['userid'])
-    print input
+    # check whether this userid is valid
+    person = g.conn.execute("SELECT * FROM users U WHERE U.uid = %s",user_id)
+    if person.fetchone() == None:
+        return 'This user does not exist!'
+
     if input == "age":
         user = g.conn.execute("SELECT age FROM users WHERE uid = %s", user_id)
         user_age = int(user.fetchone()['age'])
@@ -348,24 +353,60 @@ def recommend():
         movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid
-        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5''',user_age)
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
+        ORDER BY ave''',user_age)
 
         movie_list = []
         item = movie.fetchone()
         while not item == None:
             movie_list.append(item)
             item = movie.fetchone()
-        context = dict(data = movie_list)
+        context = dict(data = movie_list, data1 = input)
         user.close()
         movie.close()
         return render_template("recommendation.html", **context)
 
     elif input == "gender":
-        return 'h1'
+        user = g.conn.execute("SELECT gender FROM users WHERE uid = %s", user_id)
+        user_gender = user.fetchone()['gender']
+        print user_gender
+
+        movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
+        FROM users U, rate R, movie M
+        WHERE U.gender = %s AND U.uid = R.uid AND R.mid = M.mid
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
+        ORDER BY ave''',user_gender)
+
+        movie_list = []
+        item = movie.fetchone()
+        while not item == None:
+            movie_list.append(item)
+            item = movie.fetchone()
+        context = dict(data = movie_list, data1 = input)
+        user.close()
+        movie.close()
+        return render_template("recommendation.html", **context)
+
     elif input == "occupation":
-        return 'h1'
-    elif input == "genre":
-        return 'h1'
+        user = g.conn.execute("SELECT occupation FROM users WHERE uid = %s", user_id)
+        user_job = user.fetchone()['occupation']
+        print user_job
+
+        movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
+        FROM users U, rate R, movie M
+        WHERE U.occupation = %s AND U.uid = R.uid AND R.mid = M.mid
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
+        ORDER BY ave''',user_job)
+
+        movie_list = []
+        item = movie.fetchone()
+        while not item == None:
+            movie_list.append(item)
+            item = movie.fetchone()
+        context = dict(data = movie_list, data1 = input)
+        user.close()
+        movie.close()
+        return render_template("recommendation.html", **context)
 
 if __name__ == "__main__":
   import click
