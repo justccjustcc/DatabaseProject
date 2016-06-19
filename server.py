@@ -357,9 +357,11 @@ def recommend():
         return render_template("recommendation.html", **context)
 
     elif input == "gender":
+        return 'h1'
     elif input == "occupation":
+        return 'h1'
     elif input == "genre":
-
+        return 'h1'
 
 if __name__ == "__main__":
   import click
