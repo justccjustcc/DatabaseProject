@@ -36,7 +36,16 @@
 
 <h2>Recommendation area:</h2>
 <form method="POST", action="/recommend">
-  <p>Your user ID:<input type="text" name="userid"> <input type="submit" value="recommend"></p>
+  <p> Your user ID:<input type="text" name="userid"> </p>
+  <p> Recommend by:
+    <select name="method">
+      <option value="age">age</option>
+      <option value="gender">gender</option>
+      <option value="occupation"></option>
+      <option value="genre"></option>
+    </select>
+  </p>
+
 </form>
 
 </body>
