@@ -212,10 +212,10 @@ def rate():
     return 'You have successfully rate the movie'
 
 
-@app.route('/searchActor', methods=['GET'])
+@app.route('/searchActor', methods=['POST'])
 def searchActor():
-    input = request.form['Directorname']
-    actor = g.conn.execute('''SELECT A1.aname, M.name, M.year, M.ratings, A1.count
+    input = request.form['Actorname']
+    actor = g.conn.execute('''SELECT A1.aname, M.mname, M.year, M.rating, A1.count
     FROM (SELECT A.aid, A.aname, COUNT(*) AS count FROM actor A, played_by P
     WHERE A.aid = P.aid AND A.aname = %s GROUP BY A.aid, A.aname) A1, played_by P1, movie M
     WHERE A1.aid = P1.aid AND P1.mid = M.mid ''',input)
@@ -225,9 +225,8 @@ def searchActor():
         actor_list.append(item)
         item = actor.fetchone()
     context = dict(data = actor_list)
-    return render_template("actorresult",**context)
     actor.close()
-
+    return render_template("actorresult.html",**context)
 
 
 if __name__ == "__main__":
