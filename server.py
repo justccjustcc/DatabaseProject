@@ -341,6 +341,7 @@ def recommend():
     if input == "age":
         user = g.conn.execute("SELECT age FROM users WHERE uid = %s", input)
         user_age = user.age
+        print user_age
         user.close()
         users = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, AVG(R.score) AS ave
         FROM users U, rate R, movie M
