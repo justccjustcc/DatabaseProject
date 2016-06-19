@@ -5,6 +5,17 @@
   <div>
   <h2>{{t.mname}} <small>{{t.year}}</small></h2>
   <h3>Rotten Tomato Audience Rating: {{t.rating}}</h3>
+  <h3>Director: {{t.dname}}</h3>
+  <h3>Actors:
+    {% for i in data1%}
+    {% if {{i.mid}} == {{t.mid}} %}
+    <!--{% if {{i.rank}} < 6 %}-->
+    {{i.aname}}  
+    <!--{% endif %}-->
+    {% endif %}
+    {% endfor %}
+  </h3>
+
   <form method="POST" action="/rate">
     <p>Your User ID: <input type="text" name="userid">
     <p>Your rating to the film:
