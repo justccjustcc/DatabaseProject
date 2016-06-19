@@ -342,10 +342,9 @@ def recommend():
     print input
     if input == "age":
         user = g.conn.execute("SELECT age FROM users WHERE uid = %s", user_id)
-        print user
         user_age = int(user.fetchone()['age'])
         print user_age
-        user.close()
+
         users = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, AVG(R.score) AS ave
         FROM users U, rate R, movie M
         WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid
@@ -356,7 +355,8 @@ def recommend():
         while not item == None:
             user_list.append(item)
             item = users.fetchone()
-        context = dict(data = users,data1 = input)
+        context = dict(data = users)
+        user.close()
         users.close()
         return render_template("recommendation.html", **context)
 
