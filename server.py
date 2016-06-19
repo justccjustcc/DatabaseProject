@@ -250,7 +250,7 @@ def searchActor():
     WHERE A.aid = P.aid AND A.aname = %s GROUP BY A.aid, A.aname''',input)
 
     movie = g.conn.execute('''SELECT P1.aid, M.mname, M.rating, M.year
-    FROM (SELECT P.aid P.mid FROM actor A, played_by P
+    FROM (SELECT P.aid, P.mid FROM actor A, played_by P
     WHERE A.aid = P.aid AND A.aname = %s) P1, movie M
     WHERE P1.mid = M.mid ''',input)
 
