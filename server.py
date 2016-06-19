@@ -172,7 +172,7 @@ def another():
 def searchmovie():
   input = request.form['moviename']
   movie = g.conn.execute('''SELECT * FROM movie M, director D,
-  (SELECT M1.mid, AVG(R.score) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
+  (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
   WHERE M.mname=%s AND M.did = D.did AND M.mid = M2.mid''', input)
 
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
@@ -261,7 +261,7 @@ def chooseArea():
 def chooseCountry():
     input = request.form['country']
     movie = g.conn.execute('''SELECT * FROM country C, movie M, director D,
-    (SELECT M1.mid, AVG(R.score) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
+    (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
     WHERE C.cid = M.cid AND M.did = D.did AND M2.mid = M.mid AND C.cname = %s''', input)
 
     other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
