@@ -1,0 +1,6 @@
+1|Asia
+2|North America
+3|South America
+4|Europe
+5|Africa
+6|Oceania
