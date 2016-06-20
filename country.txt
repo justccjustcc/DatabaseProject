@@ -1,0 +1,71 @@
+1|Libya|5
+2|Turkey|4
+3|Germany|4
+4|Singapore|1
+5|France|4
+6|Colombia|3
+7|Japan|1
+8|Vietnam|1
+9|Jamaica|5
+10|Russia|4
+11|Denmark|4
+12|Bosnia and Herzegovina|4
+13|Netherlands|4
+14|Yugoslavia|4
+15|Australia|6
+16|Argentina|3
+17|Burkina Faso|5
+18|Afghanistan|1
+19|Czech Republic|4
+20|Cuba|2
+21|West Germany|4
+22|Brazil|3
+23|Ivory Coast|5
+24|Israel|1
+25|Senegal|5
+26|Chile|3
+27|New Zealand|6
+28|Hungary|4
+29|USA|2
+30|East Germany|4
+31|Botswana|5
+32|Soviet Union|4
+33|Mexico|2
+34|Finland|4
+35|Taiwan|1
+36|Thailand|1
+37|Peru|3
+38|Venezuela|3
+39|Federal Republic of Yugoslavia|4
+40|Bhutan|1
+41|Algeria|5
+42|Aruba|2
+43|Iran|1
+44|Spain|4
+45|Czechoslovakia|4
+46|South Korea|1
+47|Ireland|4
+48|Hong Kong|1
+49|Iceland|4
+50|Portugal|4
+51|Romania|4
+52|Canada|2
+53|China|1
+54|Austria|6
+55|South Africa|5
+56|Occupied Palestinian Territory|1
+57|Poland|4
+58|Republic of Macedonia|4
+59|Kazakhstan|1
+60|Croatia|4
+61|Tunisia|5
+62|Italy|4
+63|Sweden|4
+64|Greece|4
+65|UK|4
+66|India|1
+67|Philippines|1
+68|Switzerland|4
+69|Belgium|4
+70|Norway|4
+71|Bulgaria|4
