@@ -443,7 +443,7 @@ def recommend():
 def signup():
     input = request.form['newid']
     user = g.conn.execute("SELECT * FROM users WHERE uid = %s", input)
-    if user.fetchone() == None:
+    if not user.fetchone() == None:
         return 'This name has been taken, please go back and choose another ID'
     else:
         age = request.form['age']
