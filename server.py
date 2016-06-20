@@ -277,7 +277,7 @@ def rate():
     if not person.fetchone() == None:
         res = g.conn.execute("SELECT * FROM rate R WHERE R.mid = %s AND R.uid = %s", movieid, userid)
         if res.fetchone() == None:
-            g.conn.execute("INSERT INTO rate VALUES(%s,%s,%s)",movieid, userid, score)
+            g.conn.execute("INSERT INTO rate VALUES(%s,%s,%s)", userid, movieid, score)
         else:
             g.conn.execute("UPDATE rate SET score = %s WHERE mid = %s AND uid = %s", score, movieid, userid)
         res.close()
