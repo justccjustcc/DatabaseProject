@@ -2,7 +2,9 @@
 <h1>Actor Search Result:</h1>
 
 {% for t in data %}
+{% if t.rank < 6 %}
 <h2>Actor: {{t.aname}}  <small>ID: {{t.aid}}</small><h2>
+{% endif %}
 <h3>Found {{t.count}} movies played by {{t.aname}}</h3>
 <ul>
 {% for i in data1 %}
