@@ -449,7 +449,7 @@ def signup():
         age = request.form['age']
         job = request.form['job']
         gender = request.form['gender']
-        g.conn.execute("INSERT INTO user VALUES(%s,%s,%s,%s)",input,age,gender,job)
+        g.conn.execute("INSERT INTO users VALUES(%s,%s,%s,%s)",input,age,gender,job)
         return 'Successfully sign up'
 
 
