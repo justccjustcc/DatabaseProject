@@ -173,7 +173,7 @@ def searchmovie():
 
   other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A
   WHERE M.mname = %s AND M.mid = P.mid AND P.aid = A.aid
-  ORDER BY A.rank''', input)
+  ORDER BY P.rank''', input)
 
   genre = g.conn.execute('''SELECT * FROM movie M, belong_to B, genre G
   WHERE M.mname = %s AND M.mid = B.mid AND B.gid = G.gid''', input)
@@ -245,7 +245,7 @@ def chooseGenre():
 
     other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A, genre G, belong_to B
     WHERE M.mid = P.mid AND P.aid = A.aid AND G.gid = B.gid AND B.mid = M.mid AND G.gname = %s
-    ORDER BY A.rank''', input)
+    ORDER BY P.rank''', input)
 
 
 
@@ -340,7 +340,7 @@ def chooseCountry():
 
     other = g.conn.execute('''SELECT * FROM country C, movie M, played_by P, actor A
     WHERE C.cid = M.cid AND M.mid = P.mid AND P.aid = A.aid AND C.cname = %s
-    ORDER BY A.rank''', input)
+    ORDER BY P.rank''', input)
 
     genre = g.conn.execute('''SELECT * FROM country C, movie M, belong_to B, genre G
     WHERE C.cid = M.cid AND M.mid = B.mid AND B.gid = G.gid AND C.cname = %s''', input)
