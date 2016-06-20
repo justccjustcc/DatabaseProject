@@ -236,7 +236,7 @@ def search():
 @app.route('/chooseGenre', methods=['POST'])
 def chooseGenre():
     input = request.form['genre']
-    movie = g.conn.execute('''SELECT * FROM genre G, belong_to B, movie M, country C
+    movie = g.conn.execute('''SELECT * FROM genre G, belong_to B, movie M, country C,
     (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave
     FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
     WHERE G.gid = B.gid AND B.mid = M.mid AND M2.mid = M.mid AND C.cid = M.cid AND G.gname = %s''',input)
