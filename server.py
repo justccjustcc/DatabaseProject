@@ -241,7 +241,7 @@ def chooseGenre():
     (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave
     FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
     WHERE G.gid = B.gid AND B.mid = M.mid AND M2.mid = M.mid AND C.cid = M.cid AND G.gname = %s
-    ORDER BY M2.ave''',input)
+    ORDER BY M2.ave DESC''',input)
 
     other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A, genre G, belong_to B
     WHERE M.mid = P.mid AND P.aid = A.aid AND G.gid = B.gid AND B.mid = M.mid AND G.gname = %s
@@ -388,7 +388,7 @@ def recommend():
         FROM users U, rate R, movie M
         WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4
-        ORDER BY ave''', user_age, user_id)
+        ORDER BY ave DESC''', user_age, user_id)
 
         movie_list = []
         item = movie.fetchone()
@@ -409,7 +409,7 @@ def recommend():
         FROM users U, rate R, movie M
         WHERE U.gender = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
-        ORDER BY ave''',user_gender, user_id)
+        ORDER BY ave DESC''',user_gender, user_id)
 
         movie_list = []
         item = movie.fetchone()
@@ -430,7 +430,7 @@ def recommend():
         FROM users U, rate R, movie M
         WHERE U.occupation = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
         GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
-        ORDER BY ave''',user_job, user_id)
+        ORDER BY ave DESC''',user_job, user_id)
 
         movie_list = []
         item = movie.fetchone()
