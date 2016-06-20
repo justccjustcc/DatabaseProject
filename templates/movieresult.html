@@ -18,7 +18,9 @@
   <h3>Actors:
     {% for i in data1%}
     {% if i.mid == t.mid %}
-    {{i.aname}},
+    {% if i.rank < 6%}
+    {{i.aname}},({{i.rank}});
+    {% endif %}
     {% endif %}
     {% endfor %}
   </h3>
