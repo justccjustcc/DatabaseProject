@@ -387,7 +387,7 @@ def recommend():
         movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
-        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4  AND COUNT(R.score) > 20
         ORDER BY ave DESC''', user_age, user_id)
 
         movie_list = []
@@ -408,7 +408,7 @@ def recommend():
         movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.gender = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
-        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4 AND COUNT(R.score) > 20
         ORDER BY ave DESC''',user_gender, user_id)
 
         movie_list = []
@@ -429,7 +429,7 @@ def recommend():
         movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.occupation = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
-        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4  AND COUNT(R.score) > 20
         ORDER BY ave DESC''',user_job, user_id)
 
         movie_list = []
