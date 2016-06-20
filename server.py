@@ -251,9 +251,11 @@ def chooseGenre():
 
     movie_list = []
     item = movie.fetchone()
-    while not item == None:
+    count = 0
+    while not (item == None or count > 50):
         movie_list.append(item)
         item = movie.fetchone()
+        count = count + 1
 
     actor_list = []
     item = other.fetchone()
@@ -347,9 +349,11 @@ def chooseCountry():
 
     movie_list = []
     item = movie.fetchone()
-    while not item == None:
+    count = 0
+    while not (item == None or count > 50):
         movie_list.append(item)
         item = movie.fetchone()
+        count = count + 1
 
     actor_list = []
     item = other.fetchone()
@@ -392,9 +396,11 @@ def recommend():
 
         movie_list = []
         item = movie.fetchone()
-        while not item == None:
+        count = 0
+        while not (item == None or count > 50):
             movie_list.append(item)
             item = movie.fetchone()
+            count  = count + 1
         context = dict(data = movie_list, data1 = input)
         user.close()
         movie.close()
@@ -413,9 +419,11 @@ def recommend():
 
         movie_list = []
         item = movie.fetchone()
-        while not item == None:
+        count = 0
+        while not (item == None or count > 50):
             movie_list.append(item)
             item = movie.fetchone()
+            count = count + 1
         context = dict(data = movie_list, data1 = input)
         user.close()
         movie.close()
@@ -434,9 +442,11 @@ def recommend():
 
         movie_list = []
         item = movie.fetchone()
-        while not item == None:
+        count = 0
+        while not (item == None or count > 50):
             movie_list.append(item)
             item = movie.fetchone()
+            count = count + 1
         context = dict(data = movie_list, data1 = input)
         user.close()
         movie.close()
