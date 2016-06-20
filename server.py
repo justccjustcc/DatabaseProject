@@ -232,6 +232,36 @@ def search():
     movie.close()
     return render_template("directorresult.html",**context)
 
+# choose movie based genre
+@app.route('/chooseGenre', methods=['POST'])
+def chooseGenre():
+    input = request.form['genre']
+    movie = ('''SELECT * FROM genre G, belong_to B, movie M, country C
+    (SELECT M1.mid, ROUND(AVG(R.score)::numeric,2) AS ave
+    FROM movie M1, rate R WHERE M1.mid = R.mid GROUP BY M1.mid) M2
+    WHERE G.gid = B.gid AND B.mid = M.mid AND M2.mid = M.mid AND C.cid = M.cid AND G.gname = %s''',input)
+
+    other = g.conn.execute('''SELECT * FROM movie M, played_by P, actor A, genre G, belong_to B
+    WHERE M.mid = P.mid AND P.aid = A.aid AND G.gid = B.gid AND B.mid = M.mid AND G.gname = %s''', input)
+
+
+
+    movie_list = []
+    item = movie.fetchone()
+    while not item == None:
+        movie_list.append(item)
+        item = movie.fetchone()
+
+    actor_list = []
+    item = other.fetchone()
+    while not item == None:
+        actor_list.append(item)
+        item = other.fetchone()
+
+    context = dict(data = movie_list, data1 = actor_list, data2 = movie_list)
+    movie.close()
+    other.close()
+    return render_template("movieresult.html", **context)
 
 # submit a rate from user
 @app.route('/rate',  methods=['POST'])
