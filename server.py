@@ -387,7 +387,7 @@ def recommend():
         movie = g.conn.execute('''SELECT M.mid, M.mname, M.year, M.rating, ROUND(AVG(R.score)::numeric,2) AS ave
         FROM users U, rate R, movie M
         WHERE U.age = %s AND U.uid = R.uid AND R.mid = M.mid AND U.uid != %s
-        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 3.5
+        GROUP BY M.mid, M.mname, M.year, M.rating HAVING AVG(R.score) > 4
         ORDER BY ave''', user_age, user_id)
 
         movie_list = []
