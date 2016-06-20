@@ -438,6 +438,21 @@ def recommend():
         movie.close()
         return render_template("recommendation.html", **context)
 
+
+@app.route('/signup', methods=['POST'])
+def signup():
+    input = request.form['newid']
+    user = g.conn.execute("SELECT * FROM users WHERE uid = %s", input)
+    if user.fetchone() == None:
+        return 'This name has been taken, please go back and choose another ID'
+    else:
+        age = request.form['age']
+        job = request.form['job']
+        gender = request.form['gender']
+        g.conn.execute("INSERT INTO user VALUES(%s,%s,%s,%s)",input,age,gender,job)
+        return 'Successfully sign up'
+
+
 if __name__ == "__main__":
   import click
 
